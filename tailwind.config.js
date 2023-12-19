@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// import formsPlugin from "@tailwindcss/forms";
+
 export default {
   content: [
     "./index.html",
@@ -10,5 +12,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // formsPlugin
+    // eslint-disable-next-line no-undef
+    // require("@tailwindcss/forms"),
+  ],
 };
