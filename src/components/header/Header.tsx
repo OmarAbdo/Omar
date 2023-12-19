@@ -1,17 +1,28 @@
-import React from 'react';
-import './Header.css';
+// Header.tsx
+
+import React, { useState } from "react";
+import "./Header.css";
 
 const Header: React.FC = () => {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const toggleCollapse = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
-    <header className="header flex-container flex-align-items-stretch">
-      <nav className="nav">
-        <div className="logo">Logo</div>
-        <ul className="menu">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+    <header className={`header ${isCollapsed ? "collapsed" : ""}`}>
+      <div className="logo">Your Logo</div>
+      <nav className={`nav ${isCollapsed ? "collapsed" : ""}`}>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
       </nav>
+      <div className="hamburger" onClick={toggleCollapse}>
+        <span className={`line ${isCollapsed ? "line-1" : ""}`} />
+        <span className={`line ${isCollapsed ? "line-2" : ""}`} />
+        <span className={`line ${isCollapsed ? "line-3" : ""}`} />
+      </div>
     </header>
   );
 };
