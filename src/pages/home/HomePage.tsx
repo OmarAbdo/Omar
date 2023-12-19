@@ -1,9 +1,13 @@
 import React from "react";
 import Hero from "../../components/hero/Hero";
+import Service from "../../components/service/Service";
 
 const HomePage: React.FC = () => {
   return (
-    <Hero/>
+    <div>
+      <Hero />
+      <Service />
+    </div>
   );
 };
 

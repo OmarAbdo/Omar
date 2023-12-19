@@ -1,17 +1,21 @@
 import React from "react";
 
 type ImageProps = {
-  src: string;
-  alt: string;
-  className?: string;
+  imageSrc: string;
+  imageAlt: string;
+  imageClassName?: string;
 };
 
-const Image: React.FC<ImageProps> = ({ src, alt, className }) => {
+const Image: React.FC<ImageProps> = ({
+  imageSrc,
+  imageAlt,
+  imageClassName,
+}) => {
   return (
     <img
-      src={src}
-      alt={alt}
-      className={`w-full h-auto object-cover ${className}`}
+      src={imageSrc}
+      alt={imageAlt}
+      className={`w-full h-auto object-cover ${imageClassName}`}
       // Add additional Tailwind CSS classes as default, e.g., `w-full h-auto object-cover`
       // You can override these by passing `className` prop
     />

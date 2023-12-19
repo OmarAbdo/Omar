@@ -1,0 +1,9 @@
+.custom-shadow {
+  box-shadow: -1px 4px 20px -1px rgba(183, 183, 183, 1);
+  -webkit-box-shadow: -1px 4px 20px -1px rgba(183, 183, 183, 1);
+  -moz-box-shadow: -1px 4px 20px -1px rgba(183, 183, 183, 1);
+}
+
+.text-25xl {
+    font-size: 1.75rem
+}
