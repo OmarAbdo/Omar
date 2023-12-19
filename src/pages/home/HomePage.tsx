@@ -1,17 +1,9 @@
 import React from "react";
+import Hero from "../../components/hero/Hero";
 
-interface HomePageProps {
-  title: string;
-}
-
-const HomePage: React.FC<HomePageProps> = ({ title }) => {
+const HomePage: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-4xl font-bold leading-tight text-gray-900">
-        {title}
-      </h1>
-      <p>Welcome to the home page!</p>
-    </div>
+    <Hero/>
   );
 };
 

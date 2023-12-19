@@ -8,7 +8,7 @@ import './tailwind.css';
 const App: React.FC = () => {
   return (
     <Layout>
-      <HomePage title="Omar Abdou"/>
+      <HomePage />
     </Layout>
   );
 };
