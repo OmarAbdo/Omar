@@ -1,4 +1,4 @@
-import './Service.css'
+import "./Service.css";
 const posts = [
   {
     id: 1,
@@ -17,7 +17,6 @@ const posts = [
     imageUrl: "./images/service 2.png",
   },
 ];
-
 
 const Service: React.FC = () => {
   return (

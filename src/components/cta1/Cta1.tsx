@@ -1,6 +1,6 @@
 import Image from "../common/image/Image";
 
-const Hero: React.FC = () => {
+const CTA1: React.FC = () => {
   return (
     <div className="bg-white">
       <div className="relative isolate">
@@ -10,7 +10,8 @@ const Hero: React.FC = () => {
             <div className="mx-auto max-w-2xl">
               <div className="mx-auto">
                 <h1 className="mt-10 text-4xl font-thin tracking-tight text-gray-900 sm:text-6xl">
-                  Build the web platform you have always dreamed about.
+                  Get your business to benefit from the latest technologies
+                  today.
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   If you're looking for the right mix between technology and
@@ -29,10 +30,7 @@ const Hero: React.FC = () => {
           </div>
           {/* Second column */}
           <div className="px-6 lg:col-span-5 lg:px-0 lg:pt-4">
-            <Image
-              imageSrc="./images/Hero image.png"
-              imageAlt="Software services"
-            />
+            <Image imageSrc="./images/cta1.png" imageAlt="Software services" />
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
@@ -41,4 +39,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default CTA1;
