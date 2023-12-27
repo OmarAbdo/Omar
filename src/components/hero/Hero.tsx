@@ -1,6 +1,10 @@
 import Image from "../common/image/Image";
+import { TranslatableComponentProps } from "../../utils/types";
+import { useTranslation } from "react-i18next";
 
-const Hero: React.FC = () => {
+const Hero: React.FC<TranslatableComponentProps> = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-white">
       <div className="relative isolate">
