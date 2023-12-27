@@ -9,6 +9,7 @@ export default {
     "./src/**/*.ts",
     "./src/**/*.tsx",
   ],
+  darkMode: "class", // 'media' or 'class'
   theme: {
     extend: {},
   },

@@ -14,6 +14,8 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import DarkModeToggle from "./DarkModeToggle"
+import { useDarkMode } from "../../DarkModeContext"; // adjust the import path
 
 const products = [
   {
@@ -58,9 +60,11 @@ function classNames(...classes: (string | boolean)[]): string {
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { darkMode } = useDarkMode();
+
 
   return (
-    <header className="bg-white">
+    <header className={`bg-white ${darkMode ? 'dark' : ''}`}>
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -156,9 +160,7 @@ const Header: React.FC = () => {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <DarkModeToggle />
         </div>
       </nav>
       <Dialog
@@ -234,12 +236,7 @@ const Header: React.FC = () => {
                 </a>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
+                <DarkModeToggle />
               </div>
             </div>
           </div>

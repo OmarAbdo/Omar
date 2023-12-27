@@ -1,0 +1,34 @@
+{
+    "header": {},
+    "home": {
+        "hero": {
+            "title": "Побудуйте веб-платформу, про яку ви завжди мріяли.",
+            "subTitle": "Якщо ви шукаєте правильне поєднання технологій та бізнес-бачення, тоді ви потрапили за правильною адресою.",
+            "button": "Почати будівництво"
+        },
+        "services": {
+            "title": "Що я пропоную?",
+            "development": {
+                "header": "Розробка програмного забезпечення",
+                "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+                "link": "Дізнатися більше"
+            },
+            "consultancy": {
+                "header": "Консультування з програмного забезпечення",
+                "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+                "link": "Дізнатися більше"
+            }
+        },
+        "cta1": {
+            "title": "Дозвольте вашому бізнесу скористатися перевагами новітніх технологій вже сьогодні.",
+            "subTitle": "Якщо ви шукаєте правильне поєднання технологій та бізнес-бачення, тоді ви потрапили за правильною адресою.",
+            "button": "Почати будівництво"
+        },
+        "cta2": {
+            "title": "Отримайте безкоштовну консультацію з програмного забезпечення зараз",
+            "subTitle": "Натисніть кнопку нижче та заповніть спливаюче вікно, щоб записатися на зустріч зі мною, щоб ми змогли обговорити ваш бізнес.",
+            "button": "Записатися на прийом"
+        }
+    },
+    "footer": {}
+}

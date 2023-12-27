@@ -3,4 +3,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* @import '@tailwindcss/forms'; */
+/* styles.css */
+.dark {
+  background-color: rgb(30,30,30)!important;
+  color: white;
+  * {
+  color: white;
+  }
+}
