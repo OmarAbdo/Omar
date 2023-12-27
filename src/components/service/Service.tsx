@@ -21,7 +21,7 @@ const Service: React.FC = () => {
           {services.map((serviceItem) => (
             <article
               key={serviceItem.id}
-              className="flex flex-col items-start justify-between custom-shadow"
+              className={`flex flex-col items-start justify-between custom-shadow ${darkMode ? "dark" : ""}`}
             >
               <div className="relative w-full">
                 <img
@@ -29,7 +29,6 @@ const Service: React.FC = () => {
                   alt=""
                   className="aspect-[16/9] w-full  bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                 />
-                <div className="absolute inset-0  ring-1 ring-inset ring-gray-900/10" />
               </div>
               <div className="max-w-xl">
                 <div className="group relative py-5 pl-10 pr-20">

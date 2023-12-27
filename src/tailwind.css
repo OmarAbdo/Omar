@@ -4,10 +4,27 @@
 @import 'tailwindcss/utilities';
 
 /* styles.css */
-.dark {
-  background-color: rgb(30,30,30)!important;
+.dark,
+.dark div {
+  background-color: rgb(30,30,30);
   color: white;
-  * {
+}
+
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark a,
+.dark button {
   color: white;
-  }
+}
+
+.dark .custom-shadow {
+  box-shadow: -1px 4px 20px -1px rgb(48, 48, 48);
+  -webkit-box-shadow: -1px 4px 20px -1px rgba(48, 48, 48, 1);
+  -moz-box-shadow: -1px 4px 20px -1px rgba(48, 48, 48, 1);
 }

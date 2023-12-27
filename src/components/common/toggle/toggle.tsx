@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Switch } from "@headlessui/react";
-import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 
 interface ToggleProps {
   onClick?: () => void;
@@ -46,16 +45,17 @@ const Toggle: React.FC<ToggleProps> = ({ onClick }) => {
           aria-hidden="true"
         >
           <svg
-            className="h-3 w-3 text-gray-400"
+            xmlns="http://www.w3.org/2000/svg"
             fill="none"
-            viewBox="0 0 12 12"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
           >
             <path
-              d="M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2"
-              stroke="currentColor"
-              strokeWidth={2}
               strokeLinecap="round"
               strokeLinejoin="round"
+              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
             />
           </svg>
         </span>
@@ -69,11 +69,18 @@ const Toggle: React.FC<ToggleProps> = ({ onClick }) => {
           aria-hidden="true"
         >
           <svg
-            className="h-3 w-3 text-red-600"
-            fill="currentColor"
-            viewBox="0 0 12 12"
+            className="w-6 h-6 text-red-600"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
           >
-            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+            />
           </svg>
         </span>
       </span>
