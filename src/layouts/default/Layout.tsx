@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import { useDarkMode } from "../../DarkModeContext"; // adjust the import path
+import { useDarkMode } from "../../DarkModeContext";
 
 type LayoutProps = {
   children: React.ReactNode;

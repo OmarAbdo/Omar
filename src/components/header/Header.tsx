@@ -9,7 +9,7 @@ import {
 
 } from "@heroicons/react/20/solid";
 import DarkModeToggle from "./DarkModeToggle"
-import { useDarkMode } from "../../DarkModeContext"; // adjust the import path
+import { useDarkMode } from "../../DarkModeContext";
 import { products, callsToAction } from "./Header.data";
 
 function classNames(...classes: (string | boolean)[]): string {

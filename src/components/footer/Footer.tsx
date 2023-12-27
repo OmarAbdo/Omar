@@ -1,9 +1,9 @@
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import { useDarkMode } from "../../DarkModeContext";
 import { navigation } from "./Footer.data"
 
 const Footer: React.FC = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const { darkMode } = useDarkMode();
 
   return (
