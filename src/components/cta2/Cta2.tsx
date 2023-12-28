@@ -1,14 +1,12 @@
 import Image from "../common/image/Image";
 
 import { useTranslation } from "react-i18next";
-import { useDarkMode } from "../../DarkModeContext";
 
 const CTA2: React.FC = () => {
   const { t } = useTranslation();
-  const { darkMode } = useDarkMode();
 
   return (
-    <div className={`bg-white ${darkMode ? "dark" : ""}`}>
+    <div className="bg-white">
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:py-20">
           {/* Second column */}

@@ -2,15 +2,12 @@ import { useTranslation } from "react-i18next";
 
 import "./Service.css";
 import { services } from "./Service.data";
-import { useDarkMode } from "../../DarkModeContext";
-
 
 const Service: React.FC = () => {
   const { t } = useTranslation();
-  const { darkMode } = useDarkMode();
 
   return (
-    <div className={`bg-white py-24 sm:py-32 ${darkMode ? "dark" : ""}`}>
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="mt-10 text-4xl font-thin tracking-tight text-gray-900 sm:text-6xl">
@@ -21,7 +18,7 @@ const Service: React.FC = () => {
           {services.map((serviceItem) => (
             <article
               key={serviceItem.id}
-              className={`flex flex-col items-start justify-between custom-shadow ${darkMode ? "dark" : ""}`}
+              className="flex flex-col items-start justify-between custom-shadow"
             >
               <div className="relative w-full">
                 <img

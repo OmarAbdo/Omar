@@ -9,9 +9,13 @@ export default {
     "./src/**/*.ts",
     "./src/**/*.tsx",
   ],
-  darkMode: "class", // 'media' or 'class'
+  darkMode: "media", // 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "custom-teal": "#35BBBB",
+      },
+    },
   },
   plugins: [
     // formsPlugin

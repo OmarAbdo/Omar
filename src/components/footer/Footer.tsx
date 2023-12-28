@@ -1,13 +1,11 @@
 // import { useTranslation } from "react-i18next";
-import { useDarkMode } from "../../DarkModeContext";
 import { navigation } from "./Footer.data"
 
 const Footer: React.FC = () => {
   // const { t } = useTranslation();
-  const { darkMode } = useDarkMode();
 
   return (
-    <footer className={`bg-white ${darkMode ? "dark" : ""}`} aria-labelledby="footer-heading">
+    <footer className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -136,7 +134,7 @@ const Footer: React.FC = () => {
             ))}
           </div>
           <p className="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
-            &copy; { new Date().getFullYear() } Your Company, Inc. All rights
+            &copy; {new Date().getFullYear()} Your Company, Inc. All rights
             reserved.
           </p>
         </div>
