@@ -32,7 +32,7 @@ export const articleCategories = [
     icon: SparklesIcon,
   },
   {
-    name: "Others",
+    name: "Other topics",
     description: "Testing, AI tools, and other trends!",
     href: "#",
     icon: BeakerIcon,
