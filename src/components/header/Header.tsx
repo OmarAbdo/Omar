@@ -43,7 +43,11 @@ const Header: React.FC = () => {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="https://drive.google.com/file/d/1vOzUCXSASKsKUDm_pvwlJuCbl91iKl3h/view?usp=drive_link"
+            className="text-sm font-semibold leading-6 text-gray-900"
+            target="_blank"
+          >
             Portfolio
           </a>
           <Popover className="relative">
@@ -81,6 +85,7 @@ const Header: React.FC = () => {
                         <a
                           href={item.href}
                           className="block font-semibold text-gray-900"
+                          target="_blank"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
@@ -93,7 +98,10 @@ const Header: React.FC = () => {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="https://www.linkedin.com/in/omar-abdo/"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Contact
           </a>
         </Popover.Group>
@@ -148,8 +156,9 @@ const Header: React.FC = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1vOzUCXSASKsKUDm_pvwlJuCbl91iKl3h/view?usp=drive_link"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 "
+                  target="_blank"
                 >
                   Portfolio
                 </a>
@@ -172,6 +181,7 @@ const Header: React.FC = () => {
                             key={item.name}
                             as="a"
                             href={item.href}
+                            target="_blank"
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 "
                           >
                             {item.name}
@@ -182,7 +192,7 @@ const Header: React.FC = () => {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/omar-abdo/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 "
                 >
                   Contact
