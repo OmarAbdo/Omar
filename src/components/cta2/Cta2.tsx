@@ -10,7 +10,7 @@ const CTA2: React.FC = () => {
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:py-20">
           {/* Second column */}
-          <div className="px-6 lg:col-span-5 lg:px-0 lg:pt-4">
+          <div className="p-6 lg:col-span-5 lg:px-0 lg:pt-4">
             <Image imageSrc="./images/cta2.png" imageAlt="Software services" />
           </div>
           {/* First column */}

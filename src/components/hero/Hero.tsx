@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           {/* Second column */}
-          <div className="px-6 lg:col-span-5 lg:px-0 lg:pt-4">
+          <div className="p-6 lg:col-span-5 lg:px-0 lg:pt-4">
             <Image
               imageSrc="./images/Hero image.png"
               imageAlt="Software services"
