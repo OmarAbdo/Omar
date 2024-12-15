@@ -29,7 +29,7 @@ const Service: React.FC = () => {
               </div>
               <div className="max-w-xl">
                 <div className="group relative py-5 pl-10 pr-20">
-                  <h3 className="mt-5 text-25xl font-thin leading-6 text-gray-900 group-hover:text-gray-600">
+                  <h3 className="mt-5 text-25xl font-thin leading-6 text-gray-900 ">
                     {t(serviceItem.title)}
                   </h3>
                   <p className="mt-5 line-clamp-4 text-sm leading-6 text-gray-600">

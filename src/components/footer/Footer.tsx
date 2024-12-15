@@ -1,11 +1,11 @@
 // import { useTranslation } from "react-i18next";
-import { navigation } from "./Footer.data"
+import { navigation } from "./Footer.data";
 
 const Footer: React.FC = () => {
   // const { t } = useTranslation();
 
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>

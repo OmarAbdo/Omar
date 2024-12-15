@@ -16,12 +16,11 @@ const Header: React.FC = () => {
 
   const handleToggle = () => {
     setIsToggled(!isToggled);
-    console.log("This toggle will activate dark mode in the future");
   };
 
 
   return (
-    <header className="bg-white ">
+    <header >
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
