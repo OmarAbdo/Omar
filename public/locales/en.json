@@ -1,38 +1,80 @@
 {
-    "header": {
-
+  "header": {
+    "globalNavigation": "Global navigation",
+    "logoAlt": "Omar Abdo | Software Development",
+    "openMenu": "Open main menu",
+    "closeMenu": "Close menu",
+    "nav": {
+      "portfolio": "Portfolio",
+      "articles": "Articles",
+      "contact": "Contact"
     },
-    "home": {
-        "hero": {
-            "title": "Build the web platform you have always dreamed about.",
-            "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
-            "button": "Start building"
-        },
-        "services": {
-            "title": "What do I offer?",
-            "development": {
-                "header": "Software Development",
-                "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-                "link": "Learn more"
-            },
-            "consultancy": {
-                "header": "Software Consultancy",
-                "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-                "link": "Learn more"
-            }
-        },
-        "cta1": {
-            "title": "Get your business to benefit from the latest technologies today.",
-            "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
-            "button": "Start building"
-        },
-        "cta2": {
-            "title": "Get a free consultation in software now",
-            "subTitle": "Click on the button below and fill the popup to pick up an appointment with me so we can discuss your business.",
-            "button": "Pick an appointment"
-        }
+    "language": {
+      "english": {
+        "ariaLabel": "Switch to English",
+        "alt": "English flag"
+      },
+      "german": {
+        "ariaLabel": "Switch to German",
+        "alt": "German flag"
+      },
+      "polish": {
+        "ariaLabel": "Switch to Polish",
+        "alt": "Polish flag"
+      }
     },
-    "footer": {
-
+    "articleCategories": {
+      "frontend": {
+        "name": "Frontend",
+        "description": "Web design, SPAs, CLIs, and Browser APIs"
+      },
+      "backend": {
+        "name": "Backend",
+        "description": "Rest APIs, Backend architecture, and Databases"
+      },
+      "computerScience": {
+        "name": "Computer science",
+        "description": "Algorithms, Data structure, and all the fancy stuff!"
+      },
+      "devOps": {
+        "name": "DevOps",
+        "description": "Continues integration with Docker, Kubernetes, and Git"
+      },
+      "otherTopics": {
+        "name": "Other topics",
+        "description": "Testing, AI tools, and other trends!"
+      }
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Build the web platform you have always dreamed about.",
+      "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
+      "button": "Start building"
+    },
+    "services": {
+      "title": "What do I offer?",
+      "development": {
+        "header": "Software Development",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Learn more"
+      },
+      "consultancy": {
+        "header": "Software Consultancy",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Learn more"
+      }
+    },
+    "cta1": {
+      "title": "Get your business to benefit from the latest technologies today.",
+      "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
+      "button": "Start building"
+    },
+    "cta2": {
+      "title": "Get a free consultation in software now",
+      "subTitle": "Click on the button below and fill the popup to pick up an appointment with me so we can discuss your business.",
+      "button": "Pick an appointment"
+    }
+  },
+  "footer": {}
 }

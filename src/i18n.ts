@@ -13,14 +13,19 @@ i18n
       loadPath: "./locales/{{lng}}.json",
     },
     interpolation: {
-      escapeValue: false,
+      escapeValue: false, // React escapes by default
     },
-    lng: "en",
-    fallbackLng: "de",
+    lng: "en", // Default language
+    fallbackLng: "en", // Fallback language
     detection: {
       order: ["localStorage", "navigator"],
       caches: ["localStorage"],
     },
   });
+
+export const changeLanguage = (language: string) => {
+  i18n.changeLanguage(language);
+  localStorage.setItem("i18nextLng", language); // Save selected language
+};
 
 export default i18n;
