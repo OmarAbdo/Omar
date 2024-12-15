@@ -1,0 +1,93 @@
+{
+  "header": {
+    "globalNavigation": "Navegação global",
+    "logoAlt": "Omar Abdo | Desenvolvimento de software",
+    "openMenu": "Abrir menu principal",
+    "closeMenu": "Fechar menu",
+    "nav": {
+      "portfolio": "Portfólio",
+      "articles": "Artigos",
+      "contact": "Contato"
+    },
+    "language": {
+      "english": {
+        "ariaLabel": "Mudar para inglês",
+        "alt": "Bandeira inglesa"
+      },
+      "german": {
+        "ariaLabel": "Mudar para alemão",
+        "alt": "Bandeira alemã"
+      },
+      "polish": {
+        "ariaLabel": "Mudar para polonês",
+        "alt": "Bandeira polonesa"
+      }
+    },
+    "articleCategories": {
+      "frontend": {
+        "name": "Frontend",
+        "description": "Design de sites, SPAs, CLIs e APIs de navegador"
+      },
+      "backend": {
+        "name": "Backend",
+        "description": "APIs REST, arquitetura backend e bancos de dados"
+      },
+      "computerScience": {
+        "name": "Ciência da computação",
+        "description": "Algoritmos, estruturas de dados e todas as coisas interessantes"
+      },
+      "devOps": {
+        "name": "DevOps",
+        "description": "Integração contínua com Docker, Kubernetes e Git"
+      },
+      "otherTopics": {
+        "name": "Outros tópicos",
+        "description": "Testes, ferramentas de IA e outras tendências"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Construa a plataforma web com a qual você sempre sonhou.",
+      "subTitle": "Se você procura a combinação perfeita entre tecnologia e visão de negócios, chegou ao lugar certo.",
+      "button": "Comece a construir"
+    },
+    "services": {
+      "title": "O que eu ofereço?",
+      "development": {
+        "header": "Desenvolvimento de software",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Saiba mais"
+      },
+      "consultancy": {
+        "header": "Consultoria em software",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Saiba mais"
+      }
+    },
+    "cta1": {
+      "title": "Faça seu negócio se beneficiar das mais recentes tecnologias hoje.",
+      "subTitle": "Se você procura a combinação perfeita entre tecnologia e visão de negócios, chegou ao lugar certo.",
+      "button": "Comece a construir"
+    },
+    "cta2": {
+      "title": "Obtenha uma consulta gratuita em software agora",
+      "subTitle": "Clique no botão abaixo e preencha o formulário para marcar uma reunião comigo e discutirmos o seu negócio.",
+      "button": "Marcar uma reunião"
+    }
+  },
+  "footer": {
+    "heading": "Rodapé",
+    "logoAlt": "Omar Abdo | Desenvolvimento de software",
+    "openSourceProjects": "Projetos de código aberto",
+    "dataScienceArticles": "Artigos sobre ciência de dados",
+    "webArticles": "Artigos sobre tecnologia web",
+    "pages": "Páginas",
+    "morePages": {
+      "More Projects": "Mais projetos",
+      "About": "Sobre mim",
+      "Get in touch": "Entre em contato"
+    },
+    "credits": "Omar Abdo"
+  }
+}

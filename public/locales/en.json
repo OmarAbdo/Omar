@@ -76,5 +76,18 @@
       "button": "Pick an appointment"
     }
   },
-  "footer": {}
+  "footer": {
+    "heading": "Footer",
+    "logoAlt": "Omar Abdo | Software Development",
+    "openSourceProjects": "Open Source Projects",
+    "dataScienceArticles": "Data Science Articles",
+    "webArticles": "Web Articles",
+    "pages": "Pages",
+    "morePages": {
+      "More Projects": "More Projects",
+      "About": "About",
+      "Get in touch": "Get in touch"
+    },
+    "credits": "Omar Abdo"
+  }
 }

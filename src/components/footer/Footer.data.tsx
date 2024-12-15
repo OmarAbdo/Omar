@@ -6,26 +6,29 @@ export const navigation = {
     { name: "Luqman", href: "https://github.com/OmarAbdo/Luqman" },
     { name: "Rita", href: "#" },
     { name: "Omar", href: "#" },
-    { name: "More Projects", href: "#" },
+    { name: "More Projects", href: "#" }, // Translation handled in `en.json`
   ],
   ds_articles: [
     { name: "AI", href: "https://medium.com/@omareabdo/lists" },
     { name: "Machine Learning", href: "https://medium.com/@omareabdo/lists" },
-    { name: "Data Science", href: "https://medium.com/@omareabdo/lists" },
+    { name: "Data Science", href: "https://medium.com/@omareabdo/lists" }, // Translation handled in `en.json`
   ],
   web_articles: [
     { name: "Frontend", href: "https://medium.com/@omareabdo/lists" },
     { name: "Backend", href: "https://medium.com/@omareabdo/lists" },
     { name: "DevOps", href: "https://medium.com/@omareabdo/lists" },
-    { name: "Computer Science", href: "https://medium.com/@omareabdo/lists" },
-    { name: "Other topics", href: "https://medium.com/@omareabdo/lists" },
+    { name: "Computer Science", href: "https://medium.com/@omareabdo/lists" }, // Translation handled in `en.json`
+    { name: "Other topics", href: "https://medium.com/@omareabdo/lists" }, // Translation handled in `en.json`
   ],
   more_pages: [
     {
-      name: "About",
+      name: "About", // Translation handled in `en.json`
       href: "https://drive.google.com/file/d/1vOzUCXSASKsKUDm_pvwlJuCbl91iKl3h/view",
     },
-    { name: "Get in touch", href: "https://www.linkedin.com/in/omar-abdo/" },
+    {
+      name: "Get in touch", // Translation handled in `en.json`
+      href: "https://www.linkedin.com/in/omar-abdo/",
+    },
   ],
   social: [
     {

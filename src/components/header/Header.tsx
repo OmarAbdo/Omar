@@ -134,6 +134,17 @@ const Header: React.FC = () => {
             />
           </button>
           <button
+            onClick={() => changeLanguage("it")}
+            aria-label={t("header.language.italian.ariaLabel")}
+            className="flex pl-3 items-center text-gray-500 hover:text-gray-600"
+          >
+            <img
+              src="https://flagicons.lipis.dev/flags/4x3/it.svg"
+              alt={t("header.language.italian.alt")}
+              className="h-auto w-5 flex-shrink-0"
+            />
+          </button>
+          <button
             onClick={() => changeLanguage("pl")}
             aria-label={t("header.language.polish.ariaLabel")}
             className="flex pl-3 items-center text-gray-500 hover:text-gray-600"
@@ -141,6 +152,28 @@ const Header: React.FC = () => {
             <img
               src="https://flagicons.lipis.dev/flags/4x3/pl.svg"
               alt={t("header.language.polish.alt")}
+              className="h-auto w-5 flex-shrink-0"
+            />
+          </button>
+          <button
+            onClick={() => changeLanguage("pt")}
+            aria-label={t("header.language.portuguese.ariaLabel")}
+            className="flex pl-3 items-center text-gray-500 hover:text-gray-600"
+          >
+            <img
+              src="https://flagicons.lipis.dev/flags/4x3/pt.svg"
+              alt={t("header.language.portuguese.alt")}
+              className="h-auto w-5 flex-shrink-0"
+            />
+          </button>
+          <button
+            onClick={() => changeLanguage("es")}
+            aria-label={t("header.language.spanish.ariaLabel")}
+            className="flex pl-3 items-center text-gray-500 hover:text-gray-600"
+          >
+            <img
+              src="https://flagicons.lipis.dev/flags/4x3/es.svg"
+              alt={t("header.language.spanish.alt")}
               className="h-auto w-5 flex-shrink-0"
             />
           </button>
@@ -241,6 +274,28 @@ const Header: React.FC = () => {
                   />
                 </button>
                 <button
+                  onClick={() => changeLanguage("es")}
+                  aria-label={t("header.language.spanish.ariaLabel")}
+                  className="flex items-center text-gray-500 hover:text-gray-600"
+                >
+                  <img
+                    src="https://flagicons.lipis.dev/flags/4x3/es.svg"
+                    alt={t("header.language.spanish.alt")}
+                    className="h-auto w-5 flex-shrink-0"
+                  />
+                </button>
+                <button
+                  onClick={() => changeLanguage("it")}
+                  aria-label={t("header.language.italian.ariaLabel")}
+                  className="flex items-center text-gray-500 hover:text-gray-600"
+                >
+                  <img
+                    src="https://flagicons.lipis.dev/flags/4x3/it.svg"
+                    alt={t("header.language.italian.alt")}
+                    className="h-auto w-5 flex-shrink-0"
+                  />
+                </button>
+                <button
                   onClick={() => changeLanguage("pl")}
                   aria-label={t("header.language.polish.ariaLabel")}
                   className="flex items-center text-gray-500 hover:text-gray-600"
@@ -248,6 +303,17 @@ const Header: React.FC = () => {
                   <img
                     src="https://flagicons.lipis.dev/flags/4x3/pl.svg"
                     alt={t("header.language.polish.alt")}
+                    className="h-auto w-5 flex-shrink-0"
+                  />
+                </button>
+                <button
+                  onClick={() => changeLanguage("pt")}
+                  aria-label={t("header.language.portuguese.ariaLabel")}
+                  className="flex items-center text-gray-500 hover:text-gray-600"
+                >
+                  <img
+                    src="https://flagicons.lipis.dev/flags/4x3/pt.svg"
+                    alt={t("header.language.portuguese.alt")}
                     className="h-auto w-5 flex-shrink-0"
                   />
                 </button>

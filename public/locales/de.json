@@ -1,37 +1,93 @@
 {
-    "header": {
-
+  "header": {
+    "globalNavigation": "Globale Navigation",
+    "logoAlt": "Omar Abdo | Softwareentwicklung",
+    "openMenu": "Hauptmenü öffnen",
+    "closeMenu": "Menü schließen",
+    "nav": {
+      "portfolio": "Portfolio",
+      "articles": "Artikel",
+      "contact": "Kontakt"
     },
-    "home": {
-        "hero": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "services": {
-            "development": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            },
-            "consulting": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            }
-        },
-        "cta1": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "cta2": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        }
+    "language": {
+      "english": {
+        "ariaLabel": "Wechseln Sie zu Englisch",
+        "alt": "Englische Flagge"
+      },
+      "german": {
+        "ariaLabel": "Wechseln Sie zu Deutsch",
+        "alt": "Deutsche Flagge"
+      },
+      "polish": {
+        "ariaLabel": "Wechseln Sie zu Polnisch",
+        "alt": "Polnische Flagge"
+      }
     },
-    "footer": {
-
+    "articleCategories": {
+      "frontend": {
+        "name": "Frontend",
+        "description": "Webdesign, SPAs, CLIs und Browser-APIs"
+      },
+      "backend": {
+        "name": "Backend",
+        "description": "REST-APIs, Backend-Architektur und Datenbanken"
+      },
+      "computerScience": {
+        "name": "Informatik",
+        "description": "Algorithmen, Datenstrukturen und all die coolen Sachen!"
+      },
+      "devOps": {
+        "name": "DevOps",
+        "description": "Kontinuierliche Integration mit Docker, Kubernetes und Git"
+      },
+      "otherTopics": {
+        "name": "Andere Themen",
+        "description": "Tests, KI-Tools und andere Trends!"
+      }
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Erstellen Sie die Webplattform, von der Sie immer geträumt haben.",
+      "subTitle": "Wenn Sie die richtige Mischung aus Technologie und Geschäftssinn suchen, sind Sie hier genau richtig.",
+      "button": "Jetzt starten"
+    },
+    "services": {
+      "title": "Was biete ich an?",
+      "development": {
+        "header": "Softwareentwicklung",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Mehr erfahren"
+      },
+      "consultancy": {
+        "header": "Softwareberatung",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Mehr erfahren"
+      }
+    },
+    "cta1": {
+      "title": "Lassen Sie Ihr Unternehmen von den neuesten Technologien profitieren.",
+      "subTitle": "Wenn Sie die richtige Mischung aus Technologie und Geschäftssinn suchen, sind Sie hier genau richtig.",
+      "button": "Jetzt starten"
+    },
+    "cta2": {
+      "title": "Erhalten Sie jetzt eine kostenlose Software-Beratung",
+      "subTitle": "Klicken Sie auf die Schaltfläche unten und füllen Sie das Popup aus, um einen Termin mit mir zu vereinbaren, damit wir Ihr Geschäft besprechen können.",
+      "button": "Einen Termin vereinbaren"
+    }
+  },
+  "footer": {
+    "heading": "Fußzeile",
+    "logoAlt": "Omar Abdo | Softwareentwicklung",
+    "openSourceProjects": "Open-Source-Projekte",
+    "dataScienceArticles": "Artikel zur Datenwissenschaft",
+    "webArticles": "Webartikel",
+    "pages": "Seiten",
+    "morePages": {
+      "More Projects": "Weitere Projekte",
+      "About": "Über mich",
+      "Get in touch": "Kontakt aufnehmen"
+    },
+    "credits": "Omar Abdo"
+  }
 }

@@ -1,37 +1,93 @@
 {
-    "header": {
-
+  "header": {
+    "globalNavigation": "Nawigacja globalna",
+    "logoAlt": "Omar Abdo | Tworzenie oprogramowania",
+    "openMenu": "Otwórz główne menu",
+    "closeMenu": "Zamknij menu",
+    "nav": {
+      "portfolio": "Portfolio",
+      "articles": "Artykuły",
+      "contact": "Kontakt"
     },
-    "home": {
-        "hero": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "services": {
-            "development": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            },
-            "consulting": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            }
-        },
-        "cta1": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "cta2": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        }
+    "language": {
+      "english": {
+        "ariaLabel": "Przełącz na angielski",
+        "alt": "Flaga angielska"
+      },
+      "german": {
+        "ariaLabel": "Przełącz na niemiecki",
+        "alt": "Flaga niemiecka"
+      },
+      "polish": {
+        "ariaLabel": "Przełącz na polski",
+        "alt": "Flaga polska"
+      }
     },
-    "footer": {
-
+    "articleCategories": {
+      "frontend": {
+        "name": "Frontend",
+        "description": "Projektowanie stron, SPA, CLI i API przeglądarki"
+      },
+      "backend": {
+        "name": "Backend",
+        "description": "REST API, architektura backendu i bazy danych"
+      },
+      "computerScience": {
+        "name": "Informatyka",
+        "description": "Algorytmy, struktury danych i wszystkie fajne rzeczy!"
+      },
+      "devOps": {
+        "name": "DevOps",
+        "description": "Ciągła integracja z Dockerem, Kubernetesem i Gitem"
+      },
+      "otherTopics": {
+        "name": "Inne tematy",
+        "description": "Testowanie, narzędzia AI i inne trendy!"
+      }
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Zbuduj platformę internetową, o której zawsze marzyłeś.",
+      "subTitle": "Jeśli szukasz idealnej mieszanki technologii i wizji biznesowej, to trafiłeś we właściwe miejsce.",
+      "button": "Zacznij budować"
+    },
+    "services": {
+      "title": "Co oferuję?",
+      "development": {
+        "header": "Tworzenie oprogramowania",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Dowiedz się więcej"
+      },
+      "consultancy": {
+        "header": "Konsultacje programistyczne",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Dowiedz się więcej"
+      }
+    },
+    "cta1": {
+      "title": "Pozwól swojej firmie skorzystać z najnowszych technologii już dziś.",
+      "subTitle": "Jeśli szukasz idealnej mieszanki technologii i wizji biznesowej, to trafiłeś we właściwe miejsce.",
+      "button": "Zacznij budować"
+    },
+    "cta2": {
+      "title": "Uzyskaj teraz darmową konsultację w zakresie oprogramowania",
+      "subTitle": "Kliknij poniższy przycisk i wypełnij formularz, aby umówić się na spotkanie, podczas którego omówimy Twoją działalność.",
+      "button": "Umów się na spotkanie"
+    }
+  },
+  "footer": {
+    "heading": "Stopka",
+    "logoAlt": "Omar Abdo | Tworzenie oprogramowania",
+    "openSourceProjects": "Projekty Open Source",
+    "dataScienceArticles": "Artykuły o Data Science",
+    "webArticles": "Artykuły o technologiach webowych",
+    "pages": "Strony",
+    "morePages": {
+      "More Projects": "Więcej projektów",
+      "About": "O mnie",
+      "Get in touch": "Skontaktuj się"
+    },
+    "credits": "Omar Abdo"
+  }
 }

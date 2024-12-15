@@ -1,37 +1,93 @@
 {
-    "header": {
-
+  "header": {
+    "globalNavigation": "Navigazione globale",
+    "logoAlt": "Omar Abdo | Sviluppo software",
+    "openMenu": "Apri il menu principale",
+    "closeMenu": "Chiudi il menu",
+    "nav": {
+      "portfolio": "Portfolio",
+      "articles": "Articoli",
+      "contact": "Contatto"
     },
-    "home": {
-        "hero": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "services": {
-            "development": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            },
-            "consulting": {
-                "header": "",
-                "subHeader": "",
-                "link": ""
-            }
-        },
-        "cta1": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        },
-        "cta2": {
-            "title": "",
-            "subTitle": "",
-            "button": ""
-        }
+    "language": {
+      "english": {
+        "ariaLabel": "Passa all'inglese",
+        "alt": "Bandiera inglese"
+      },
+      "german": {
+        "ariaLabel": "Passa al tedesco",
+        "alt": "Bandiera tedesca"
+      },
+      "polish": {
+        "ariaLabel": "Passa al polacco",
+        "alt": "Bandiera polacca"
+      }
     },
-    "footer": {
-
+    "articleCategories": {
+      "frontend": {
+        "name": "Frontend",
+        "description": "Design web, SPA, CLI e API del browser"
+      },
+      "backend": {
+        "name": "Backend",
+        "description": "REST API, architettura backend e database"
+      },
+      "computerScience": {
+        "name": "Informatica",
+        "description": "Algoritmi, strutture dati e tutte le cose interessanti"
+      },
+      "devOps": {
+        "name": "DevOps",
+        "description": "Integrazione continua con Docker, Kubernetes e Git"
+      },
+      "otherTopics": {
+        "name": "Altri argomenti",
+        "description": "Test, strumenti di intelligenza artificiale e altre tendenze"
+      }
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Costruisci la piattaforma web che hai sempre sognato.",
+      "subTitle": "Se cerchi la combinazione perfetta tra tecnologia e visione aziendale, sei nel posto giusto.",
+      "button": "Inizia a costruire"
+    },
+    "services": {
+      "title": "Cosa offro?",
+      "development": {
+        "header": "Sviluppo software",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Scopri di più"
+      },
+      "consultancy": {
+        "header": "Consulenza software",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
+        "link": "Scopri di più"
+      }
+    },
+    "cta1": {
+      "title": "Fai in modo che la tua attività tragga vantaggio dalle ultime tecnologie oggi.",
+      "subTitle": "Se cerchi la combinazione perfetta tra tecnologia e visione aziendale, sei nel posto giusto.",
+      "button": "Inizia a costruire"
+    },
+    "cta2": {
+      "title": "Ottieni ora una consulenza gratuita sul software",
+      "subTitle": "Fai clic sul pulsante qui sotto e compila il modulo per fissare un appuntamento con me e discutere della tua attività.",
+      "button": "Fissa un appuntamento"
+    }
+  },
+  "footer": {
+    "heading": "Piè di pagina",
+    "logoAlt": "Omar Abdo | Sviluppo software",
+    "openSourceProjects": "Progetti open source",
+    "dataScienceArticles": "Articoli su Data Science",
+    "webArticles": "Articoli sul web",
+    "pages": "Pagine",
+    "morePages": {
+      "More Projects": "Altri progetti",
+      "About": "Informazioni su di me",
+      "Get in touch": "Contattami"
+    },
+    "credits": "Omar Abdo"
+  }
 }
