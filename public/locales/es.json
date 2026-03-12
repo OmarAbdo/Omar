@@ -1,13 +1,16 @@
 {
   "header": {
     "globalNavigation": "Navegación global",
-    "logoAlt": "Omar Abdo | Desarrollo de software",
+    "logoAlt": "Omar Abdo | Desarrollador de software",
     "openMenu": "Abrir menú principal",
     "closeMenu": "Cerrar menú",
     "nav": {
-      "portfolio": "Portafolio",
+      "projects": "Proyectos",
+      "services": "Servicios",
+      "about": "Sobre mí",
       "articles": "Artículos",
-      "contact": "Contacto"
+      "cv": "CV",
+      "allArticles": "Todos los artículos"
     },
     "language": {
       "english": {
@@ -18,9 +21,25 @@
         "ariaLabel": "Cambiar a alemán",
         "alt": "Bandera alemana"
       },
+      "italian": {
+        "ariaLabel": "Cambiar a italiano",
+        "alt": "Bandera italiana"
+      },
       "polish": {
         "ariaLabel": "Cambiar a polaco",
         "alt": "Bandera polaca"
+      },
+      "portuguese": {
+        "ariaLabel": "Cambiar a portugués",
+        "alt": "Bandera portuguesa"
+      },
+      "spanish": {
+        "ariaLabel": "Cambiar a español",
+        "alt": "Bandera española"
+      },
+      "arabic": {
+        "ariaLabel": "Cambiar a árabe",
+        "alt": "Bandera egipcia"
       }
     },
     "articleCategories": {
@@ -33,7 +52,7 @@
         "description": "REST APIs, arquitectura backend y bases de datos"
       },
       "computerScience": {
-        "name": "Ciencia de la computación",
+        "name": "Ciencias de la computación",
         "description": "Algoritmos, estructuras de datos y todas las cosas interesantes"
       },
       "devOps": {
@@ -48,46 +67,78 @@
   },
   "home": {
     "hero": {
-      "title": "Construye la plataforma web con la que siempre has soñado.",
-      "subTitle": "Si buscas la combinación perfecta entre tecnología y visión empresarial, has llegado al lugar indicado.",
-      "button": "Comienza a construir"
+      "eyebrow": "Desarrollador Senior · Berlín",
+      "name": "Omar Abdo.",
+      "tagline": "Construyo productos impulsados por IA, sistemas autónomos y plataformas de alta escala.",
+      "ctaPrimary": "Ver proyectos",
+      "ctaSecondary": "Ponerse en contacto"
     },
-    "services": {
-      "title": "¿Qué ofrezco?",
-      "development": {
-        "header": "Desarrollo de software",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Saber más"
+    "projects": {
+      "eyebrow": "Trabajo seleccionado",
+      "title": "Proyectos que funcionan.",
+      "tafkeer": {
+        "title": "Tafkeer",
+        "description": "Plataforma SaaS de IA con enfoque árabe e inferencia multi-modelo (59 modelos via OpenRouter). Mobile-first con React Native, tRPC en AWS EKS y facturación con Stripe. En producción."
       },
-      "consultancy": {
-        "header": "Consultoría de software",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Saber más"
+      "gii": {
+        "title": "GII — Inteligencia de Inversión Global",
+        "description": "Analista de inversión autónomo que combina modelado DCF, cribado de reglas Buffett y análisis de señales geopolíticas con Gemini en mercados globales."
+      },
+      "luqman": {
+        "title": "Luqman",
+        "description": "Inteligencia de trading con deep learning usando una arquitectura híbrida LSTM/GRU/CNN con mecanismos de atención temporal para predicción de mercados."
+      },
+      "netro": {
+        "title": "Netro",
+        "description": "Simulación de entrega de última milla a escala urbana que optimiza flotas híbridas de camiones y robots autónomos en redes urbanas densas."
       }
     },
-    "cta1": {
-      "title": "Haz que tu negocio se beneficie de las últimas tecnologías hoy.",
-      "subTitle": "Si buscas la combinación perfecta entre tecnología y visión empresarial, has llegado al lugar indicado.",
-      "button": "Comienza a construir"
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Lo que construyo",
+      "development": {
+        "header": "Desarrollo Full-Stack",
+        "subHeader": "Ingeniería de producto de extremo a extremo, desde la arquitectura hasta el despliegue. React, Node.js, TypeScript, cloud-nativo."
+      },
+      "aiSystems": {
+        "header": "IA y Machine Learning",
+        "subHeader": "Integraciones de IA en producción, entrenamiento de modelos personalizados, orquestación de LLM y pipelines de automatización inteligente."
+      },
+      "architecture": {
+        "header": "Arquitectura de sistemas",
+        "subHeader": "Sistemas distribuidos escalables en AWS. Kubernetes, microservicios, diseño orientado a eventos y optimización de costos."
+      },
+      "consultancy": {
+        "header": "Consultoría técnica",
+        "subHeader": "Orientación estratégica para equipos de ingeniería. Selección de tecnología, revisión de código y due diligence técnica."
+      }
     },
-    "cta2": {
-      "title": "Obtén una consulta gratuita en software ahora",
-      "subTitle": "Haz clic en el botón de abajo y completa el formulario para concertar una cita conmigo y podamos discutir tu negocio.",
-      "button": "Solicitar una cita"
+    "about": {
+      "eyebrow": "Sobre mí",
+      "title": "Construyendo en la intersección de la IA y la ingeniería.",
+      "bio": "8+ años construyendo productos en fintech, IA y logística. Arquitectura limpia, código honesto.",
+      "stats": {
+        "experience": "Años de experiencia",
+        "projects": "Proyectos entregados",
+        "countries": "Países en todo el mundo"
+      }
+    },
+    "contact": {
+      "eyebrow": "Trabajemos juntos",
+      "title": "¿Tienes un proyecto en mente?",
+      "subtitle": "Estoy abierto a roles de ingeniería senior, conversaciones de cofundador técnico y compromisos de consultoría interesantes.",
+      "cta": "Reservar una llamada",
+      "resume": "Descargar currículum",
+      "linkedin": "Conectar en LinkedIn"
+    },
+    "experience": {
+      "eyebrow": "Carrera",
+      "title": "Por dónde he pasado."
     }
   },
   "footer": {
-    "heading": "Pie de página",
-    "logoAlt": "Omar Abdo | Desarrollo de software",
-    "openSourceProjects": "Proyectos de código abierto",
-    "dataScienceArticles": "Artículos sobre ciencia de datos",
-    "webArticles": "Artículos web",
-    "pages": "Páginas",
-    "morePages": {
-      "More Projects": "Más proyectos",
-      "About": "Acerca de mí",
-      "Get in touch": "Ponte en contacto"
-    },
+    "logoAlt": "Omar Abdo | Desarrollador de software",
+    "tagline": "Construyendo sistemas inteligentes de principio a fin.",
     "credits": "Omar Abdo"
   }
 }

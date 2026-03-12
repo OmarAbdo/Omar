@@ -1,13 +1,16 @@
 {
   "header": {
     "globalNavigation": "Global navigation",
-    "logoAlt": "Omar Abdo | Software Development",
+    "logoAlt": "Omar Abdo | Software Developer",
     "openMenu": "Open main menu",
     "closeMenu": "Close menu",
     "nav": {
-      "portfolio": "Portfolio",
+      "projects": "Projects",
+      "services": "Services",
+      "about": "About",
       "articles": "Articles",
-      "contact": "Contact"
+      "cv": "CV",
+      "allArticles": "All Articles"
     },
     "language": {
       "english": {
@@ -18,9 +21,25 @@
         "ariaLabel": "Switch to German",
         "alt": "German flag"
       },
+      "italian": {
+        "ariaLabel": "Switch to Italian",
+        "alt": "Italian flag"
+      },
       "polish": {
         "ariaLabel": "Switch to Polish",
         "alt": "Polish flag"
+      },
+      "portuguese": {
+        "ariaLabel": "Switch to Portuguese",
+        "alt": "Portuguese flag"
+      },
+      "spanish": {
+        "ariaLabel": "Switch to Spanish",
+        "alt": "Spanish flag"
+      },
+      "arabic": {
+        "ariaLabel": "Switch to Arabic",
+        "alt": "Egyptian flag"
       }
     },
     "articleCategories": {
@@ -33,61 +52,93 @@
         "description": "Rest APIs, Backend architecture, and Databases"
       },
       "computerScience": {
-        "name": "Computer science",
+        "name": "Computer Science",
         "description": "Algorithms, Data structure, and all the fancy stuff!"
       },
       "devOps": {
         "name": "DevOps",
-        "description": "Continues integration with Docker, Kubernetes, and Git"
+        "description": "Continuous integration with Docker, Kubernetes, and Git"
       },
       "otherTopics": {
-        "name": "Other topics",
+        "name": "Other Topics",
         "description": "Testing, AI tools, and other trends!"
       }
     }
   },
   "home": {
     "hero": {
-      "title": "Build the web platform you have always dreamed about.",
-      "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
-      "button": "Start building"
+      "eyebrow": "Senior Software Developer · Berlin",
+      "name": "Omar Abdo.",
+      "tagline": "I build AI-powered products, autonomous systems, and high-scale platforms.",
+      "ctaPrimary": "View Projects",
+      "ctaSecondary": "Get in Touch"
     },
-    "services": {
-      "title": "What do I offer?",
-      "development": {
-        "header": "Software Development",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Learn more"
+    "projects": {
+      "eyebrow": "Selected Work",
+      "title": "Projects that ship.",
+      "tafkeer": {
+        "title": "Tafkeer",
+        "description": "Arabic-first AI SaaS platform with multi-model inference (59 models via OpenRouter). Mobile-first with React Native, tRPC on AWS EKS, and Stripe billing. Live in production."
       },
-      "consultancy": {
-        "header": "Software Consultancy",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Learn more"
+      "gii": {
+        "title": "GII — Global Investment Intelligence",
+        "description": "Autonomous investment analyst combining DCF modelling, Buffett-rule screening, and Gemini-powered geopolitical signal analysis across global markets."
+      },
+      "luqman": {
+        "title": "Luqman",
+        "description": "Deep learning trading intelligence using a hybrid LSTM/GRU/CNN architecture with temporal attention mechanisms for time-series market prediction."
+      },
+      "netro": {
+        "title": "Netro",
+        "description": "City-scale last-mile delivery simulation optimising hybrid truck and autonomous robot fleets across dense urban grids."
       }
     },
-    "cta1": {
-      "title": "Get your business to benefit from the latest technologies today.",
-      "subTitle": "If you're looking for the right mix between technology and business vision, Then you've reached the right place.",
-      "button": "Start building"
+    "services": {
+      "eyebrow": "Services",
+      "title": "What I Build",
+      "development": {
+        "header": "Full-Stack Development",
+        "subHeader": "End-to-end product engineering from architecture through deployment. React, Node.js, TypeScript, cloud-native."
+      },
+      "aiSystems": {
+        "header": "AI & Machine Learning",
+        "subHeader": "Production AI integrations, custom model training, LLM orchestration, and intelligent automation pipelines."
+      },
+      "architecture": {
+        "header": "System Architecture",
+        "subHeader": "Scalable distributed systems on AWS. Kubernetes, microservices, event-driven design, and cost optimisation."
+      },
+      "consultancy": {
+        "header": "Technical Consulting",
+        "subHeader": "Strategic guidance for engineering teams. Technology selection, code review, and technical due diligence."
+      }
     },
-    "cta2": {
-      "title": "Get a free consultation in software now",
-      "subTitle": "Click on the button below and fill the popup to pick up an appointment with me so we can discuss your business.",
-      "button": "Pick an appointment"
+    "about": {
+      "eyebrow": "About",
+      "title": "Building at the intersection of AI and engineering.",
+      "bio": "8+ years building products in fintech, AI, and logistics. Clean architecture, honest code, software that earns its complexity.",
+      "stats": {
+        "experience": "Years experience",
+        "projects": "Projects shipped",
+        "countries": "Countries worldwide"
+      }
+    },
+    "contact": {
+      "eyebrow": "Let's Work Together",
+      "title": "Have a project in mind?",
+      "subtitle": "I'm open to senior engineering roles, technical co-founder conversations, and interesting consulting engagements.",
+      "cta": "Book a Quick Call",
+      "resume": "Download Resume",
+      "linkedin": "Connect on LinkedIn"
+    },
+    "experience": {
+      "eyebrow": "Career",
+      "title": "Where I've been."
     }
   },
   "footer": {
-    "heading": "Footer",
-    "logoAlt": "Omar Abdo | Software Development",
-    "openSourceProjects": "Open Source Projects",
-    "dataScienceArticles": "Data Science Articles",
-    "webArticles": "Web Articles",
-    "pages": "Pages",
-    "morePages": {
-      "More Projects": "More Projects",
-      "About": "About",
-      "Get in touch": "Get in touch"
-    },
+    "logoAlt": "Omar Abdo | Software Developer",
+    "tagline": "Building intelligent systems end-to-end.",
     "credits": "Omar Abdo"
   }
 }

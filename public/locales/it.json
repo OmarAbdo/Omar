@@ -1,13 +1,16 @@
 {
   "header": {
     "globalNavigation": "Navigazione globale",
-    "logoAlt": "Omar Abdo | Sviluppo software",
+    "logoAlt": "Omar Abdo | Sviluppatore software",
     "openMenu": "Apri il menu principale",
     "closeMenu": "Chiudi il menu",
     "nav": {
-      "portfolio": "Portfolio",
+      "projects": "Progetti",
+      "services": "Servizi",
+      "about": "Chi sono",
       "articles": "Articoli",
-      "contact": "Contatto"
+      "cv": "CV",
+      "allArticles": "Tutti gli articoli"
     },
     "language": {
       "english": {
@@ -18,9 +21,25 @@
         "ariaLabel": "Passa al tedesco",
         "alt": "Bandiera tedesca"
       },
+      "italian": {
+        "ariaLabel": "Passa all'italiano",
+        "alt": "Bandiera italiana"
+      },
       "polish": {
         "ariaLabel": "Passa al polacco",
         "alt": "Bandiera polacca"
+      },
+      "portuguese": {
+        "ariaLabel": "Passa al portoghese",
+        "alt": "Bandiera portoghese"
+      },
+      "spanish": {
+        "ariaLabel": "Passa allo spagnolo",
+        "alt": "Bandiera spagnola"
+      },
+      "arabic": {
+        "ariaLabel": "Passa all'arabo",
+        "alt": "Bandiera egiziana"
       }
     },
     "articleCategories": {
@@ -48,46 +67,78 @@
   },
   "home": {
     "hero": {
-      "title": "Costruisci la piattaforma web che hai sempre sognato.",
-      "subTitle": "Se cerchi la combinazione perfetta tra tecnologia e visione aziendale, sei nel posto giusto.",
-      "button": "Inizia a costruire"
+      "eyebrow": "Senior Software Developer · Berlino",
+      "name": "Omar Abdo.",
+      "tagline": "Sviluppo prodotti basati sull'IA, sistemi autonomi e piattaforme ad alta scalabilità.",
+      "ctaPrimary": "Vedi i progetti",
+      "ctaSecondary": "Contattami"
     },
-    "services": {
-      "title": "Cosa offro?",
-      "development": {
-        "header": "Sviluppo software",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Scopri di più"
+    "projects": {
+      "eyebrow": "Lavori selezionati",
+      "title": "Progetti che funzionano.",
+      "tafkeer": {
+        "title": "Tafkeer",
+        "description": "Piattaforma SaaS AI con focus arabo e inferenza multi-modello (59 modelli via OpenRouter). Mobile-first con React Native, tRPC su AWS EKS e fatturazione Stripe. In produzione."
       },
-      "consultancy": {
-        "header": "Consulenza software",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Scopri di più"
+      "gii": {
+        "title": "GII — Intelligenza d'Investimento Globale",
+        "description": "Analista d'investimento autonomo che combina modellazione DCF, screening delle regole Buffett e analisi di segnali geopolitici con Gemini sui mercati globali."
+      },
+      "luqman": {
+        "title": "Luqman",
+        "description": "Intelligenza di trading con deep learning usando un'architettura ibrida LSTM/GRU/CNN con meccanismi di attenzione temporale per la previsione dei mercati."
+      },
+      "netro": {
+        "title": "Netro",
+        "description": "Simulazione della consegna dell'ultimo miglio su scala urbana per ottimizzare flotte ibride di camion e robot autonomi in reti urbane dense."
       }
     },
-    "cta1": {
-      "title": "Fai in modo che la tua attività tragga vantaggio dalle ultime tecnologie oggi.",
-      "subTitle": "Se cerchi la combinazione perfetta tra tecnologia e visione aziendale, sei nel posto giusto.",
-      "button": "Inizia a costruire"
+    "services": {
+      "eyebrow": "Servizi",
+      "title": "Cosa sviluppo",
+      "development": {
+        "header": "Sviluppo Full-Stack",
+        "subHeader": "Ingegneria di prodotto end-to-end dall'architettura al deployment. React, Node.js, TypeScript, cloud-native."
+      },
+      "aiSystems": {
+        "header": "IA e Machine Learning",
+        "subHeader": "Integrazioni AI in produzione, training di modelli personalizzati, orchestrazione LLM e pipeline di automazione intelligente."
+      },
+      "architecture": {
+        "header": "Architettura di sistema",
+        "subHeader": "Sistemi distribuiti scalabili su AWS. Kubernetes, microservizi, design event-driven e ottimizzazione dei costi."
+      },
+      "consultancy": {
+        "header": "Consulenza tecnica",
+        "subHeader": "Guida strategica per team di ingegneria. Selezione della tecnologia, revisione del codice e due diligence tecnica."
+      }
     },
-    "cta2": {
-      "title": "Ottieni ora una consulenza gratuita sul software",
-      "subTitle": "Fai clic sul pulsante qui sotto e compila il modulo per fissare un appuntamento con me e discutere della tua attività.",
-      "button": "Fissa un appuntamento"
+    "about": {
+      "eyebrow": "Chi sono",
+      "title": "Costruendo all'intersezione tra IA e ingegneria.",
+      "bio": "8+ anni a costruire prodotti nel fintech, IA e logistica. Architettura pulita, codice onesto.",
+      "stats": {
+        "experience": "Anni di esperienza",
+        "projects": "Progetti consegnati",
+        "countries": "Paesi in tutto il mondo"
+      }
+    },
+    "contact": {
+      "eyebrow": "Lavoriamo insieme",
+      "title": "Hai un progetto in mente?",
+      "subtitle": "Sono aperto a ruoli di ingegneria senior, conversazioni con co-fondatori tecnici e incarichi di consulenza interessanti.",
+      "cta": "Prenota una chiamata",
+      "resume": "Scarica il CV",
+      "linkedin": "Connettiti su LinkedIn"
+    },
+    "experience": {
+      "eyebrow": "Carriera",
+      "title": "Dove sono stato."
     }
   },
   "footer": {
-    "heading": "Piè di pagina",
-    "logoAlt": "Omar Abdo | Sviluppo software",
-    "openSourceProjects": "Progetti open source",
-    "dataScienceArticles": "Articoli su Data Science",
-    "webArticles": "Articoli sul web",
-    "pages": "Pagine",
-    "morePages": {
-      "More Projects": "Altri progetti",
-      "About": "Informazioni su di me",
-      "Get in touch": "Contattami"
-    },
+    "logoAlt": "Omar Abdo | Sviluppatore software",
+    "tagline": "Costruisco sistemi intelligenti dall'inizio alla fine.",
     "credits": "Omar Abdo"
   }
 }

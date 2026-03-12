@@ -1,0 +1,107 @@
+{
+  "header": {
+    "globalNavigation": "القائمة الرئيسية",
+    "logoAlt": "عمر عبده | مطور برمجيات",
+    "openMenu": "افتح القائمة",
+    "closeMenu": "أغلق القائمة",
+    "nav": {
+      "projects": "المشاريع",
+      "services": "الخدمات",
+      "about": "عني",
+      "articles": "المقالات",
+      "allArticles": "كل المقالات",
+      "cv": "السيرة الذاتية"
+    },
+    "language": {
+      "english": { "ariaLabel": "English", "alt": "العلم الأمريكي" },
+      "german": { "ariaLabel": "Deutsch", "alt": "العلم الألماني" },
+      "arabic": { "ariaLabel": "العربية", "alt": "العلم المصري" },
+      "italian": { "ariaLabel": "Italiano", "alt": "العلم الإيطالي" },
+      "polish": { "ariaLabel": "Polski", "alt": "العلم البولندي" },
+      "portuguese": { "ariaLabel": "Português", "alt": "العلم البرتغالي" },
+      "spanish": { "ariaLabel": "Español", "alt": "العلم الإسباني" }
+    },
+    "articleCategories": {
+      "frontend": { "name": "الواجهة الأمامية", "description": "تصميم الويب، تطبيقات SPA وواجهات المتصفح" },
+      "backend": { "name": "الواجهة الخلفية", "description": "APIs، هندسة الخادم وقواعد البيانات" },
+      "computerScience": { "name": "علوم الحاسوب", "description": "خوارزميات، هياكل بيانات، وأشياء رائعة!" },
+      "devOps": { "name": "DevOps", "description": "Docker وKubernetes وGit والتكامل المستمر" },
+      "otherTopics": { "name": "مواضيع متنوعة", "description": "أدوات الذكاء الاصطناعي، الاختبار، والتوجهات الجديدة" }
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "مطور برمجيات أول · برلين",
+      "name": "عمر عبده.",
+      "tagline": "أبني منتجات ذكية، أنظمة مستقلة، ومنصات تتحمل الضغط.",
+      "ctaPrimary": "شوف المشاريع",
+      "ctaSecondary": "تواصل معي"
+    },
+    "projects": {
+      "eyebrow": "أعمال مختارة",
+      "title": "مشاريع حقيقية.",
+      "tafkeer": {
+        "title": "تفكير",
+        "description": "منصة SaaS للذكاء الاصطناعي للعربي أولاً — 59 نموذجاً عبر OpenRouter. React Native وtRPC على AWS EKS مع فوترة Stripe. شغّال في الإنتاج."
+      },
+      "gii": {
+        "title": "GII — الذكاء الاستثماري العالمي",
+        "description": "محلل استثمار ذاتي يجمع نمذجة DCF، فحص قواعد بافيت، وتحليل الإشارات الجيوسياسية بالذكاء الاصطناعي."
+      },
+      "luqman": {
+        "title": "لقمان",
+        "description": "ذكاء تداول بالتعلم العميق — بنية هجينة LSTM/GRU/CNN مع آليات انتباه زمني للتنبؤ بالأسواق."
+      },
+      "netro": {
+        "title": "نيترو",
+        "description": "محاكاة توصيل الميل الأخير على مستوى المدينة — تحسين أسطول هجين من الشاحنات والروبوتات المستقلة."
+      }
+    },
+    "services": {
+      "eyebrow": "الخدمات",
+      "title": "إيش أبني",
+      "development": {
+        "header": "تطوير Full-Stack",
+        "subHeader": "هندسة منتج كاملة من الصفر للإنتاج — React وNode.js وTypeScript والسحابة."
+      },
+      "aiSystems": {
+        "header": "الذكاء الاصطناعي والتعلم الآلي",
+        "subHeader": "تكاملات AI في الإنتاج، تدريب نماذج مخصصة، تنسيق LLM، وأتمتة ذكية."
+      },
+      "architecture": {
+        "header": "هندسة الأنظمة",
+        "subHeader": "أنظمة موزعة قابلة للتوسع على AWS — Kubernetes، خدمات صغيرة، وتصميم يعتمد على الأحداث."
+      },
+      "consultancy": {
+        "header": "الاستشارات التقنية",
+        "subHeader": "توجيه استراتيجي لفرق الهندسة — اختيار التقنية، مراجعة الكود، والتحقق التقني."
+      }
+    },
+    "about": {
+      "eyebrow": "عني",
+      "title": "أبني عند تقاطع الذكاء الاصطناعي والهندسة.",
+      "bio": "8+ سنوات في بناء منتجات في fintech والذكاء الاصطناعي واللوجستيات. أهتم بالهندسة النظيفة والكود الصادق.",
+      "stats": {
+        "experience": "سنوات خبرة",
+        "projects": "مشروع منجز",
+        "countries": "دول حول العالم"
+      }
+    },
+    "experience": {
+      "eyebrow": "المسيرة المهنية",
+      "title": "من وين جيت."
+    },
+    "contact": {
+      "eyebrow": "نشتغل سوا؟",
+      "title": "عندك مشروع؟",
+      "subtitle": "منفتح على أدوار هندسة أولى، محادثات مؤسسين تقنيين، وتكليفات استشارية مثيرة.",
+      "cta": "احجز كول سريع",
+      "linkedin": "تواصل على LinkedIn"
+    }
+  },
+  "footer": {
+    "logoAlt": "عمر عبده | مطور برمجيات",
+    "tagline": "بناء أنظمة ذكية من الأول للآخر.",
+    "credits": "عمر عبده"
+  }
+}

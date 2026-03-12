@@ -1,13 +1,16 @@
 {
   "header": {
     "globalNavigation": "Globale Navigation",
-    "logoAlt": "Omar Abdo | Softwareentwicklung",
+    "logoAlt": "Omar Abdo | Softwareentwickler",
     "openMenu": "Hauptmenü öffnen",
     "closeMenu": "Menü schließen",
     "nav": {
-      "portfolio": "Portfolio",
+      "projects": "Projekte",
+      "services": "Leistungen",
+      "about": "Über mich",
       "articles": "Artikel",
-      "contact": "Kontakt"
+      "cv": "Lebenslauf",
+      "allArticles": "Alle Artikel"
     },
     "language": {
       "english": {
@@ -18,9 +21,25 @@
         "ariaLabel": "Wechseln Sie zu Deutsch",
         "alt": "Deutsche Flagge"
       },
+      "italian": {
+        "ariaLabel": "Wechseln Sie zu Italienisch",
+        "alt": "Italienische Flagge"
+      },
       "polish": {
         "ariaLabel": "Wechseln Sie zu Polnisch",
         "alt": "Polnische Flagge"
+      },
+      "portuguese": {
+        "ariaLabel": "Wechseln Sie zu Portugiesisch",
+        "alt": "Portugiesische Flagge"
+      },
+      "spanish": {
+        "ariaLabel": "Wechseln Sie zu Spanisch",
+        "alt": "Spanische Flagge"
+      },
+      "arabic": {
+        "ariaLabel": "Wechseln Sie zu Arabisch",
+        "alt": "Ägyptische Flagge"
       }
     },
     "articleCategories": {
@@ -48,46 +67,78 @@
   },
   "home": {
     "hero": {
-      "title": "Erstellen Sie die Webplattform, von der Sie immer geträumt haben.",
-      "subTitle": "Wenn Sie die richtige Mischung aus Technologie und Geschäftssinn suchen, sind Sie hier genau richtig.",
-      "button": "Jetzt starten"
+      "eyebrow": "Senior Softwareentwickler · Berlin",
+      "name": "Omar Abdo.",
+      "tagline": "Ich entwickle KI-gestützte Produkte, autonome Systeme und hochskalierbare Plattformen.",
+      "ctaPrimary": "Projekte ansehen",
+      "ctaSecondary": "Kontakt aufnehmen"
     },
-    "services": {
-      "title": "Was biete ich an?",
-      "development": {
-        "header": "Softwareentwicklung",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Mehr erfahren"
+    "projects": {
+      "eyebrow": "Ausgewählte Arbeiten",
+      "title": "Projekte, die liefern.",
+      "tafkeer": {
+        "title": "Tafkeer",
+        "description": "Arabisch-erste KI-SaaS-Plattform mit Multi-Modell-Inferenz (59 Modelle via OpenRouter). Mobile-first mit React Native, tRPC auf AWS EKS und Stripe-Abrechnung. Live in Produktion."
       },
-      "consultancy": {
-        "header": "Softwareberatung",
-        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac.",
-        "link": "Mehr erfahren"
+      "gii": {
+        "title": "GII — Globale Investitionsintelligenz",
+        "description": "Autonomer Investitionsanalyst, der DCF-Modellierung, Buffett-Regelprüfung und Gemini-gestützte geopolitische Signalanalyse auf globalen Märkten kombiniert."
+      },
+      "luqman": {
+        "title": "Luqman",
+        "description": "Deep-Learning-Handelsintelligenz mit einer hybriden LSTM/GRU/CNN-Architektur und zeitlichen Aufmerksamkeitsmechanismen für Zeitreihen-Marktvorhersagen."
+      },
+      "netro": {
+        "title": "Netro",
+        "description": "Stadtweite Simulation der letzten Meile zur Optimierung hybrider LKW- und autonomer Roboterflotten in dichten städtischen Netzen."
       }
     },
-    "cta1": {
-      "title": "Lassen Sie Ihr Unternehmen von den neuesten Technologien profitieren.",
-      "subTitle": "Wenn Sie die richtige Mischung aus Technologie und Geschäftssinn suchen, sind Sie hier genau richtig.",
-      "button": "Jetzt starten"
+    "services": {
+      "eyebrow": "Leistungen",
+      "title": "Was ich entwickle",
+      "development": {
+        "header": "Full-Stack-Entwicklung",
+        "subHeader": "Komplette Produktentwicklung von der Architektur bis zum Deployment. React, Node.js, TypeScript, cloud-nativ."
+      },
+      "aiSystems": {
+        "header": "KI & maschinelles Lernen",
+        "subHeader": "Produktions-KI-Integrationen, benutzerdefiniertes Modelltraining, LLM-Orchestrierung und intelligente Automatisierungspipelines."
+      },
+      "architecture": {
+        "header": "Systemarchitektur",
+        "subHeader": "Skalierbare verteilte Systeme auf AWS. Kubernetes, Microservices, ereignisgesteuerte Architektur und Kostenoptimierung."
+      },
+      "consultancy": {
+        "header": "Technische Beratung",
+        "subHeader": "Strategische Beratung für Entwicklungsteams. Technologieauswahl, Code-Reviews und technische Due Diligence."
+      }
     },
-    "cta2": {
-      "title": "Erhalten Sie jetzt eine kostenlose Software-Beratung",
-      "subTitle": "Klicken Sie auf die Schaltfläche unten und füllen Sie das Popup aus, um einen Termin mit mir zu vereinbaren, damit wir Ihr Geschäft besprechen können.",
-      "button": "Einen Termin vereinbaren"
+    "about": {
+      "eyebrow": "Über mich",
+      "title": "An der Schnittstelle von KI und Engineering.",
+      "bio": "8+ Jahre Produktentwicklung in Fintech, KI und Logistik. Saubere Architektur, ehrlicher Code.",
+      "stats": {
+        "experience": "Jahre Erfahrung",
+        "projects": "Abgeschlossene Projekte",
+        "countries": "Länder weltweit"
+      }
+    },
+    "contact": {
+      "eyebrow": "Zusammenarbeiten",
+      "title": "Haben Sie ein Projekt im Sinn?",
+      "subtitle": "Ich bin offen für Senior-Engineering-Stellen, technische Mitgründer-Gespräche und interessante Beratungsaufträge.",
+      "cta": "Kurzes Gespräch buchen",
+      "resume": "Lebenslauf herunterladen",
+      "linkedin": "LinkedIn verbinden"
+    },
+    "experience": {
+      "eyebrow": "Karriere",
+      "title": "Mein Werdegang."
     }
   },
   "footer": {
-    "heading": "Fußzeile",
-    "logoAlt": "Omar Abdo | Softwareentwicklung",
-    "openSourceProjects": "Open-Source-Projekte",
-    "dataScienceArticles": "Artikel zur Datenwissenschaft",
-    "webArticles": "Webartikel",
-    "pages": "Seiten",
-    "morePages": {
-      "More Projects": "Weitere Projekte",
-      "About": "Über mich",
-      "Get in touch": "Kontakt aufnehmen"
-    },
+    "logoAlt": "Omar Abdo | Softwareentwickler",
+    "tagline": "Intelligente Systeme von Anfang bis Ende.",
     "credits": "Omar Abdo"
   }
 }
