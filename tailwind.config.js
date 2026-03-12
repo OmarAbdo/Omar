@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-// import formsPlugin from "@tailwindcss/forms";
-
 export default {
   content: [
     "./index.html",
@@ -9,17 +7,23 @@ export default {
     "./src/**/*.ts",
     "./src/**/*.tsx",
   ],
-  darkMode: "class", // 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        "custom-teal": "#35BBBB",
+        "dark-bg":       "#08090D",
+        "dark-surface":  "#111318",
+        "light-bg":      "#F8F8FC",
+        "light-surface": "#FFFFFF",
+        "gold":          "#C9B896",
+        "gold-hover":    "#B89870",
+        "text-primary":  "#EDEDEE",
+        "text-muted":    "#7A7D8A",
+      },
+      fontFamily: {
+        sans: ["Inter var", "Inter", "sans-serif"],
       },
     },
   },
-  plugins: [
-    // formsPlugin
-    // eslint-disable-next-line no-undef
-    // require("@tailwindcss/forms"),
-  ],
+  plugins: [],
 };
