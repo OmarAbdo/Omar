@@ -13,7 +13,7 @@ export interface ExperienceItem {
 export const experiences: ExperienceItem[] = [
   {
     id: "self-employed",
-    role: "Founder & Full-Stack Developer",
+    role: "Freelance Full-Stack Developer",
     company: "Tafkeer",
     location: "Berlin",
     period: "Jan 2026 — Present",

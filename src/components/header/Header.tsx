@@ -15,9 +15,6 @@ function classNames(...classes: (string | boolean)[]): string {
 const languages = [
   { code: "en", flag: "https://flagicons.lipis.dev/flags/4x3/us.svg", key: "english" },
   { code: "de", flag: "https://flagicons.lipis.dev/flags/4x3/de.svg", key: "german" },
-  { code: "ar", flag: "https://flagicons.lipis.dev/flags/4x3/eg.svg", key: "arabic" },
-  { code: "it", flag: "https://flagicons.lipis.dev/flags/4x3/it.svg", key: "italian" },
-  { code: "pl", flag: "https://flagicons.lipis.dev/flags/4x3/pl.svg", key: "polish" },
   { code: "pt", flag: "https://flagicons.lipis.dev/flags/4x3/pt.svg", key: "portuguese" },
   { code: "es", flag: "https://flagicons.lipis.dev/flags/4x3/es.svg", key: "spanish" },
 ];
