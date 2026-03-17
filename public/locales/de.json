@@ -21,14 +21,6 @@
         "ariaLabel": "Wechseln Sie zu Deutsch",
         "alt": "Deutsche Flagge"
       },
-      "italian": {
-        "ariaLabel": "Wechseln Sie zu Italienisch",
-        "alt": "Italienische Flagge"
-      },
-      "polish": {
-        "ariaLabel": "Wechseln Sie zu Polnisch",
-        "alt": "Polnische Flagge"
-      },
       "portuguese": {
         "ariaLabel": "Wechseln Sie zu Portugiesisch",
         "alt": "Portugiesische Flagge"
@@ -36,10 +28,6 @@
       "spanish": {
         "ariaLabel": "Wechseln Sie zu Spanisch",
         "alt": "Spanische Flagge"
-      },
-      "arabic": {
-        "ariaLabel": "Wechseln Sie zu Arabisch",
-        "alt": "Ägyptische Flagge"
       }
     },
     "articleCategories": {

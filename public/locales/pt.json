@@ -21,14 +21,6 @@
         "ariaLabel": "Mudar para alemão",
         "alt": "Bandeira alemã"
       },
-      "italian": {
-        "ariaLabel": "Mudar para italiano",
-        "alt": "Bandeira italiana"
-      },
-      "polish": {
-        "ariaLabel": "Mudar para polonês",
-        "alt": "Bandeira polonesa"
-      },
       "portuguese": {
         "ariaLabel": "Mudar para português",
         "alt": "Bandeira portuguesa"
@@ -36,10 +28,6 @@
       "spanish": {
         "ariaLabel": "Mudar para espanhol",
         "alt": "Bandeira espanhola"
-      },
-      "arabic": {
-        "ariaLabel": "Mudar para árabe",
-        "alt": "Bandeira egípcia"
       }
     },
     "articleCategories": {

@@ -21,14 +21,6 @@
         "ariaLabel": "Switch to German",
         "alt": "German flag"
       },
-      "italian": {
-        "ariaLabel": "Switch to Italian",
-        "alt": "Italian flag"
-      },
-      "polish": {
-        "ariaLabel": "Switch to Polish",
-        "alt": "Polish flag"
-      },
       "portuguese": {
         "ariaLabel": "Switch to Portuguese",
         "alt": "Portuguese flag"
@@ -36,10 +28,6 @@
       "spanish": {
         "ariaLabel": "Switch to Spanish",
         "alt": "Spanish flag"
-      },
-      "arabic": {
-        "ariaLabel": "Switch to Arabic",
-        "alt": "Egyptian flag"
       }
     },
     "articleCategories": {
