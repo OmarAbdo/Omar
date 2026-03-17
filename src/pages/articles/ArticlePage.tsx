@@ -1,9 +1,9 @@
 import React, { useMemo } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { marked } from "marked";
 import { useTranslation } from "react-i18next";
-import { getArticleBySlug } from "../../utils/markdown";
+import { getArticleBySlug, marked } from "../../utils/markdown";
+import "highlight.js/styles/github-dark.css";
 import { fadeUpVariant } from "../../utils/animations";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
@@ -95,14 +95,20 @@ const ArticlePage: React.FC = () => {
 
           {/* Article body */}
           <div
-            className="prose prose-gray dark:prose-invert max-w-none
-              prose-headings:font-black prose-headings:tracking-tight
-              prose-h2:text-2xl prose-h3:text-lg
+            className="prose prose-lg dark:prose-invert max-w-none
+              prose-headings:font-bold prose-headings:tracking-tight
+              prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
+              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+              prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed
+              prose-li:text-gray-700 dark:prose-li:text-gray-300
               prose-a:text-gold prose-a:no-underline hover:prose-a:underline
-              prose-code:text-gold prose-code:bg-gray-100 prose-code:dark:bg-white/5 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-normal
-              prose-pre:bg-gray-900 prose-pre:border prose-pre:border-white/10 prose-pre:rounded-xl
-              prose-blockquote:border-l-gold prose-blockquote:text-text-muted
-              prose-strong:text-gray-900 dark:prose-strong:text-text-primary"
+              prose-code:text-gold prose-code:bg-gray-100 dark:prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-code:before:content-[''] prose-code:after:content-['']
+              prose-pre:bg-[#0d1117] prose-pre:border prose-pre:border-white/10 prose-pre:rounded-lg prose-pre:shadow-lg prose-pre:overflow-x-auto
+              prose-pre:p-0 [&_pre>code]:p-5 [&_pre>code]:block [&_pre>code]:text-sm [&_pre>code]:leading-relaxed [&_pre>code]:bg-transparent
+              prose-blockquote:border-l-gold prose-blockquote:text-gray-500 dark:prose-blockquote:text-gray-400 prose-blockquote:font-normal prose-blockquote:not-italic
+              prose-strong:text-gray-900 dark:prose-strong:text-white
+              prose-hr:border-gray-200 dark:prose-hr:border-white/10
+              prose-img:rounded-lg prose-img:shadow-md"
             dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
 
