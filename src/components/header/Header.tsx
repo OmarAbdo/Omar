@@ -63,7 +63,7 @@ const Header: React.FC = () => {
         </div>
 
         {/* Desktop nav */}
-        <Popover.Group className="hidden lg:flex lg:gap-x-8 items-center">
+        <Popover.Group className="hidden lg:flex lg:gap-x-4 xl:gap-x-8 items-center">
           <button onClick={() => scrollToSection("projects")} className="text-sm font-medium text-text-muted hover:text-gold dark:hover:text-gold transition-colors">
             {t("header.nav.projects")}
           </button>
@@ -122,7 +122,7 @@ const Header: React.FC = () => {
         </Popover.Group>
 
         {/* Right controls */}
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-3">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-2 xl:gap-3 shrink-0">
           <Toggle />
           <div className="flex items-center gap-1 pl-3 border-l border-gray-200 dark:border-white/10">
             {languages.map((lang) => (
