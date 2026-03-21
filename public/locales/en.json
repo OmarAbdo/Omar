@@ -47,6 +47,14 @@
         "name": "DevOps",
         "description": "Continuous integration with Docker, Kubernetes, and Git"
       },
+      "mobile": {
+        "name": "Mobile",
+        "description": "React Native, Flutter, and cross-platform engineering"
+      },
+      "ai": {
+        "name": "AI",
+        "description": "Machine learning, transformers, and intelligent systems"
+      },
       "otherTopics": {
         "name": "Other Topics",
         "description": "Testing, AI tools, and other trends!"
@@ -79,6 +87,32 @@
       "netro": {
         "title": "Netro",
         "description": "City-scale last-mile delivery simulation optimising hybrid truck and autonomous robot fleets across dense urban grids."
+      },
+      "prototypesEyebrow": "UI Prototypes",
+      "prototypesTitle": "Concepts that demonstrate.",
+      "pulse": {
+        "title": "Pulse",
+        "description": "Real-time analytics dashboard with live KPIs, sparklines, and multi-chart data visualisation. Built for operational clarity."
+      },
+      "vault": {
+        "title": "Vault",
+        "description": "Private wealth portfolio interface with holdings tracking, performance charts, and allocation breakdowns. Quiet luxury, modern fintech."
+      },
+      "arrow": {
+        "title": "Arrow",
+        "description": "Last-mile delivery tracker with live driver status, order management, and map-based fleet visualisation."
+      },
+      "luma": {
+        "title": "Luma",
+        "description": "Appointment booking system with weekly calendar, time-slot management, and client detail panels. Warm, approachable, professional."
+      },
+      "haven": {
+        "title": "Haven",
+        "description": "Property management dashboard with unit grids, tenant tracking, payment status, and maintenance requests."
+      },
+      "safi": {
+        "title": "Safi",
+        "description": "Invoicing application with beautiful document previews, payment tracking, and cash flow KPIs. Clean, precise, trustworthy."
       }
     },
     "services": {

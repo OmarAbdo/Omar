@@ -47,6 +47,14 @@
         "name": "DevOps",
         "description": "Kontinuierliche Integration mit Docker, Kubernetes und Git"
       },
+      "mobile": {
+        "name": "Mobile",
+        "description": "React Native, Flutter und plattformübergreifende Entwicklung"
+      },
+      "ai": {
+        "name": "KI",
+        "description": "Maschinelles Lernen, Transformer und intelligente Systeme"
+      },
       "otherTopics": {
         "name": "Andere Themen",
         "description": "Tests, KI-Tools und andere Trends!"

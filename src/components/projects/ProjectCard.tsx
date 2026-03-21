@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+
 import { fadeUpVariant } from "../../utils/animations";
 import type { Project } from "./Projects.data";
 
@@ -9,6 +10,7 @@ const statusConfig = {
   "open-source": { label: "Open Source", className: "bg-blue-500/10 text-blue-400 border border-blue-500/20" },
   private: { label: "Private", className: "bg-gray-500/10 text-gray-400 border border-gray-500/20" },
   research: { label: "Research", className: "bg-purple-500/10 text-purple-400 border border-purple-500/20" },
+  prototype: { label: "UI Prototype", className: "bg-cyan-500/10 text-cyan-400 border border-cyan-500/20" },
 };
 
 interface ProjectCardProps {

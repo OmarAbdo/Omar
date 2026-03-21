@@ -47,6 +47,14 @@
         "name": "DevOps",
         "description": "Integración continua con Docker, Kubernetes y Git"
       },
+      "mobile": {
+        "name": "Móvil",
+        "description": "React Native, Flutter e ingeniería multiplataforma"
+      },
+      "ai": {
+        "name": "IA",
+        "description": "Aprendizaje automático, transformers y sistemas inteligentes"
+      },
       "otherTopics": {
         "name": "Otros temas",
         "description": "Pruebas, herramientas de IA y otras tendencias"
