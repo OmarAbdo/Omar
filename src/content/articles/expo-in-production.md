@@ -2,7 +2,7 @@
 title: "Expo in Production: What No One Tells You"
 date: "2026-02-28"
 description: "From Expo Go to EAS Build to over-the-air updates — the gaps between Expo's marketing and the reality of shipping a production React Native app."
-category: "frontend"
+category: "mobile"
 tags: ["React Native", "Expo", "EAS", "Mobile", "iOS", "Android"]
 readTime: "10 min read"
 ---

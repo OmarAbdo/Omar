@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Arial, sans-serif">
+  <rect width="800" height="440" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">The Evolution of Transformer Models</text>
+  <text x="400" y="52" text-anchor="middle" fill="#8b949e" font-size="12">2017 - 2024</text>
+
+  <!-- Timeline base line -->
+  <line x1="60" y1="200" x2="750" y2="200" stroke="#8b949e" stroke-width="2"/>
+
+  <!-- Tick marks and year labels -->
+  <!-- 2017 -->
+  <line x1="80" y1="192" x2="80" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="80" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2017</text>
+
+  <!-- 2018 -->
+  <line x1="190" y1="192" x2="190" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="190" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2018</text>
+
+  <!-- 2019 -->
+  <line x1="310" y1="192" x2="310" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="310" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2019</text>
+
+  <!-- 2020 -->
+  <line x1="420" y1="192" x2="420" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="420" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2020</text>
+
+  <!-- 2023 -->
+  <line x1="580" y1="192" x2="580" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="580" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2023</text>
+
+  <!-- 2024 -->
+  <line x1="710" y1="192" x2="710" y2="208" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="710" y="228" text-anchor="middle" fill="#8b949e" font-size="11">2024</text>
+
+  <!-- Node 1: Attention Is All You Need (2017) - Gold highlighted -->
+  <circle cx="80" cy="200" r="10" fill="#C9B896" stroke="#C9B896" stroke-width="2"/>
+  <text x="80" y="140" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">"Attention Is</text>
+  <text x="80" y="155" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">All You Need"</text>
+  <text x="80" y="172" text-anchor="middle" fill="#8b949e" font-size="10">The original paper</text>
+
+  <!-- Node 2: BERT (2018) - above timeline -->
+  <circle cx="170" cy="200" r="13" fill="none" stroke="#388bfd" stroke-width="2"/>
+  <text x="170" y="262" text-anchor="middle" fill="#388bfd" font-size="12" font-weight="bold">BERT</text>
+  <text x="170" y="277" text-anchor="middle" fill="#8b949e" font-size="10">Encoder-only</text>
+  <text x="170" y="292" text-anchor="middle" fill="#8b949e" font-size="10">"Understanding"</text>
+
+  <!-- Node 3: GPT-1 (2018) - below timeline -->
+  <circle cx="220" cy="200" r="13" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="220" y="140" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">GPT-1</text>
+  <text x="220" y="155" text-anchor="middle" fill="#8b949e" font-size="10">Decoder-only</text>
+  <text x="220" y="170" text-anchor="middle" fill="#8b949e" font-size="10">"Generation"</text>
+
+  <!-- Node 4: GPT-2 (2019) -->
+  <circle cx="310" cy="200" r="17" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="310" y="262" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">GPT-2</text>
+  <text x="310" y="277" text-anchor="middle" fill="#8b949e" font-size="10">1.5B params</text>
+  <text x="310" y="292" text-anchor="middle" fill="#8b949e" font-size="10">"Scaling begins"</text>
+
+  <!-- Node 5: GPT-3 (2020) -->
+  <circle cx="420" cy="200" r="22" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="420" y="140" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">GPT-3</text>
+  <text x="420" y="155" text-anchor="middle" fill="#8b949e" font-size="10">175B parameters</text>
+  <text x="420" y="170" text-anchor="middle" fill="#8b949e" font-size="10">"Few-shot learning"</text>
+
+  <!-- Node 6: GPT-4 (2023) -->
+  <circle cx="580" cy="200" r="28" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="580" y="262" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">GPT-4</text>
+  <text x="580" y="277" text-anchor="middle" fill="#8b949e" font-size="10">Multimodal</text>
+  <text x="580" y="292" text-anchor="middle" fill="#8b949e" font-size="10">"Text + Vision"</text>
+
+  <!-- Node 7: Claude 3.5 (2024) -->
+  <circle cx="710" cy="200" r="32" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="710" y="140" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">Claude 3.5</text>
+  <text x="710" y="155" text-anchor="middle" fill="#8b949e" font-size="10">1M context</text>
+  <text x="710" y="170" text-anchor="middle" fill="#8b949e" font-size="10">"Long context era"</text>
+
+  <!-- Scale legend -->
+  <text x="400" y="360" text-anchor="middle" fill="#8b949e" font-size="11">Node size represents relative model scale</text>
+
+  <!-- Category legend -->
+  <rect x="200" y="385" width="12" height="12" rx="2" fill="none" stroke="#388bfd" stroke-width="2"/>
+  <text x="220" y="396" fill="#388bfd" font-size="11">Encoder-only</text>
+
+  <rect x="340" y="385" width="12" height="12" rx="2" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="360" y="396" fill="#C9B896" font-size="11">Decoder-only / Full</text>
+
+  <circle cx="516" cy="391" r="6" fill="#C9B896" stroke="#C9B896" stroke-width="2"/>
+  <text x="530" y="396" fill="#C9B896" font-size="11">Origin paper</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <rect width="800" height="500" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">Query-Key-Value Attention Mechanism</text>
+
+  <!-- Defs -->
+  <defs>
+    <marker id="qkvArrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#C9B896"/>
+    </marker>
+    <marker id="qkvArrowBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#388bfd"/>
+    </marker>
+    <marker id="qkvArrowGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <!-- Input box -->
+  <rect x="30" y="200" width="100" height="50" rx="8" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="80" y="230" text-anchor="middle" fill="#e6edf3" font-size="13">Input</text>
+
+  <!-- Three projection arrows from input -->
+  <!-- To Q -->
+  <line x1="130" y1="210" x2="195" y2="105" stroke="#C9B896" stroke-width="1.5" marker-end="url(#qkvArrow)"/>
+  <!-- To K -->
+  <line x1="130" y1="225" x2="195" y2="225" stroke="#C9B896" stroke-width="1.5" marker-end="url(#qkvArrow)"/>
+  <!-- To V -->
+  <line x1="130" y1="240" x2="195" y2="345" stroke="#388bfd" stroke-width="1.5" marker-end="url(#qkvArrowBlue)"/>
+
+  <!-- Query box -->
+  <rect x="200" y="75" width="110" height="50" rx="8" fill="#C9B896" fill-opacity="0.1" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="255" y="105" text-anchor="middle" fill="#C9B896" font-size="14" font-weight="bold">Query (Q)</text>
+
+  <!-- Key box -->
+  <rect x="200" y="200" width="110" height="50" rx="8" fill="#C9B896" fill-opacity="0.1" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="255" y="230" text-anchor="middle" fill="#C9B896" font-size="14" font-weight="bold">Key (K)</text>
+
+  <!-- Value box -->
+  <rect x="200" y="320" width="110" height="50" rx="8" fill="#388bfd" fill-opacity="0.1" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="255" y="350" text-anchor="middle" fill="#388bfd" font-size="14" font-weight="bold">Value (V)</text>
+
+  <!-- Arrows from Q and K to dot product -->
+  <line x1="310" y1="100" x2="383" y2="155" stroke="#C9B896" stroke-width="1.5" marker-end="url(#qkvArrow)"/>
+  <line x1="310" y1="225" x2="383" y2="180" stroke="#C9B896" stroke-width="1.5" marker-end="url(#qkvArrow)"/>
+
+  <!-- Dot product circle -->
+  <circle cx="400" cy="170" r="25" fill="none" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="400" y="175" text-anchor="middle" fill="#C9B896" font-size="18" font-weight="bold">x</text>
+  <text x="400" y="210" text-anchor="middle" fill="#8b949e" font-size="10">dot product</text>
+
+  <!-- Scale label -->
+  <text x="400" y="225" text-anchor="middle" fill="#8b949e" font-size="10">/ sqrt(d_k)</text>
+
+  <!-- Arrow from dot product to softmax -->
+  <line x1="425" y1="170" x2="488" y2="170" stroke="#8b949e" stroke-width="1.5" marker-end="url(#qkvArrowGray)"/>
+
+  <!-- Softmax box -->
+  <rect x="493" y="145" width="100" height="50" rx="8" fill="none" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="543" y="175" text-anchor="middle" fill="#e6edf3" font-size="13">Softmax</text>
+
+  <!-- Label: attention weights -->
+  <text x="543" y="210" text-anchor="middle" fill="#8b949e" font-size="10">attention weights</text>
+
+  <!-- Arrow from softmax to multiply with V -->
+  <line x1="593" y1="170" x2="628" y2="170" stroke="#8b949e" stroke-width="1.5" marker-end="url(#qkvArrowGray)"/>
+
+  <!-- Multiply circle (attention weights x V) -->
+  <circle cx="645" cy="170" r="25" fill="none" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="645" y="175" text-anchor="middle" fill="#388bfd" font-size="18" font-weight="bold">x</text>
+
+  <!-- Arrow from V to multiply -->
+  <line x1="310" y1="345" x2="638" y2="192" stroke="#388bfd" stroke-width="1.5" marker-end="url(#qkvArrowBlue)"/>
+
+  <!-- Arrow from multiply to output -->
+  <line x1="670" y1="170" x2="698" y2="170" stroke="#C9B896" stroke-width="1.5" marker-end="url(#qkvArrow)"/>
+
+  <!-- Output box -->
+  <rect x="703" y="145" width="80" height="50" rx="8" fill="#C9B896" fill-opacity="0.15" stroke="#C9B896" stroke-width="2"/>
+  <text x="743" y="166" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold">Attention</text>
+  <text x="743" y="182" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold">Output</text>
+
+  <!-- Formula at bottom -->
+  <text x="400" y="420" text-anchor="middle" fill="#8b949e" font-size="13">Attention(Q, K, V) = softmax( Q K</text>
+  <text x="537" y="415" text-anchor="middle" fill="#8b949e" font-size="10">T</text>
+  <text x="555" y="420" text-anchor="middle" fill="#8b949e" font-size="13">/ sqrt(d</text>
+  <text x="594" y="424" text-anchor="middle" fill="#8b949e" font-size="9">k</text>
+  <text x="603" y="420" text-anchor="middle" fill="#8b949e" font-size="13">) ) V</text>
+
+  <!-- Step annotations -->
+  <text x="400" y="455" text-anchor="middle" fill="#8b949e" font-size="11">Q asks "what am I looking for?" — K answers "here's what I have" — V provides the actual content</text>
+
+  <!-- Step numbers -->
+  <circle cx="400" cy="133" r="10" fill="#0d1117" stroke="#8b949e" stroke-width="1"/>
+  <text x="400" y="137" text-anchor="middle" fill="#8b949e" font-size="10">1</text>
+
+  <circle cx="543" cy="133" r="10" fill="#0d1117" stroke="#8b949e" stroke-width="1"/>
+  <text x="543" y="137" text-anchor="middle" fill="#8b949e" font-size="10">2</text>
+
+  <circle cx="645" cy="133" r="10" fill="#0d1117" stroke="#8b949e" stroke-width="1"/>
+  <text x="645" y="137" text-anchor="middle" fill="#8b949e" font-size="10">3</text>
+</svg>

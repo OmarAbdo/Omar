@@ -9,6 +9,8 @@ import SectionLabel from "../../components/common/SectionLabel";
 const categoryColors: Record<string, string> = {
   frontend: "text-blue-500 bg-blue-500/10 border-blue-500/20",
   backend: "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+  mobile: "text-rose-500 bg-rose-500/10 border-rose-500/20",
+  ai: "text-cyan-500 bg-cyan-500/10 border-cyan-500/20",
   computerScience: "text-violet-500 bg-violet-500/10 border-violet-500/20",
   devOps: "text-amber-500 bg-amber-500/10 border-amber-500/20",
   otherTopics: "text-gray-400 bg-gray-400/10 border-gray-400/20",
@@ -30,6 +32,8 @@ const ArticlesPage: React.FC = () => {
     { key: "all", label: t("header.nav.allArticles") },
     { key: "frontend", label: t("header.articleCategories.frontend.name") },
     { key: "backend", label: t("header.articleCategories.backend.name") },
+    { key: "mobile", label: t("header.articleCategories.mobile.name") },
+    { key: "ai", label: t("header.articleCategories.ai.name") },
     { key: "computerScience", label: t("header.articleCategories.computerScience.name") },
     { key: "devOps", label: t("header.articleCategories.devOps.name") },
     { key: "otherTopics", label: t("header.articleCategories.otherTopics.name") },

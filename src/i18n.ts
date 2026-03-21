@@ -10,7 +10,7 @@ i18n
   .init({
     debug: false,
     backend: {
-      loadPath: "./locales/{{lng}}.json",
+      loadPath: "/locales/{{lng}}.json",
     },
     interpolation: {
       escapeValue: false,

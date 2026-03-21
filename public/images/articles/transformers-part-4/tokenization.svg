@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Arial, sans-serif">
+  <rect width="800" height="420" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">Byte-Pair Encoding (BPE) Tokenization</text>
+  <text x="400" y="52" text-anchor="middle" fill="#8b949e" font-size="12">Words decomposed into learned subword units</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrDown" viewBox="0 0 10 10" refX="5" refY="10" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 5 10 L 10 0 z" fill="#C9B896"/>
+    </marker>
+  </defs>
+
+  <!-- === Word 1: "transformers" === -->
+  <!-- Full word box -->
+  <rect x="60" y="80" width="280" height="44" rx="6" fill="#161b22" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="200" y="107" text-anchor="middle" fill="#e6edf3" font-size="18" font-weight="bold">"transformers"</text>
+
+  <!-- Arrows down -->
+  <line x1="120" y1="124" x2="120" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+  <line x1="200" y1="124" x2="200" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+  <line x1="280" y1="124" x2="280" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+
+  <!-- Token boxes -->
+  <rect x="70" y="170" width="100" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="120" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">trans</text>
+
+  <rect x="190" y="170" width="100" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="240" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">form</text>
+
+  <rect x="310" y="170" width="80" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="350" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">ers</text>
+
+  <!-- Token IDs -->
+  <text x="120" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 2087</text>
+  <text x="240" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 655</text>
+  <text x="350" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 364</text>
+
+  <!-- === Word 2: "unhappiness" === -->
+  <!-- Full word box -->
+  <rect x="460" y="80" width="280" height="44" rx="6" fill="#161b22" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="600" y="107" text-anchor="middle" fill="#e6edf3" font-size="18" font-weight="bold">"unhappiness"</text>
+
+  <!-- Arrows down -->
+  <line x1="520" y1="124" x2="520" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+  <line x1="600" y1="124" x2="600" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+  <line x1="690" y1="124" x2="690" y2="162" stroke="#C9B896" stroke-width="1.5" marker-end="url(#arrDown)"/>
+
+  <!-- Token boxes -->
+  <rect x="480" y="170" width="80" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="520" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">un</text>
+
+  <rect x="580" y="170" width="90" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="625" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">happi</text>
+
+  <rect x="690" y="170" width="80" height="40" rx="5" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="730" y="195" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="bold">ness</text>
+
+  <!-- Token IDs -->
+  <text x="520" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 348</text>
+  <text x="625" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 9812</text>
+  <text x="730" y="228" text-anchor="middle" fill="#388bfd" font-size="11">ID: 1285</text>
+
+  <!-- Explanation section -->
+  <line x1="60" y1="270" x2="740" y2="270" stroke="#8b949e" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <text x="400" y="300" text-anchor="middle" fill="#e6edf3" font-size="13" font-weight="bold">How BPE Works</text>
+
+  <!-- Step boxes -->
+  <rect x="60" y="316" width="200" height="36" rx="4" fill="#161b22" stroke="#8b949e" stroke-width="1"/>
+  <text x="160" y="328" text-anchor="middle" fill="#C9B896" font-size="11" font-weight="bold">1. Start with characters</text>
+  <text x="160" y="343" text-anchor="middle" fill="#8b949e" font-size="10">t, r, a, n, s, f, o, r, m ...</text>
+
+  <line x1="260" y1="334" x2="290" y2="334" stroke="#8b949e" stroke-width="1" marker-end="url(#arrDown)" transform="rotate(-90, 275, 334)"/>
+
+  <rect x="300" y="316" width="200" height="36" rx="4" fill="#161b22" stroke="#8b949e" stroke-width="1"/>
+  <text x="400" y="328" text-anchor="middle" fill="#C9B896" font-size="11" font-weight="bold">2. Merge frequent pairs</text>
+  <text x="400" y="343" text-anchor="middle" fill="#8b949e" font-size="10">t+r=tr, tr+a=tra ...</text>
+
+  <line x1="500" y1="334" x2="530" y2="334" stroke="#8b949e" stroke-width="1" marker-end="url(#arrDown)" transform="rotate(-90, 515, 334)"/>
+
+  <rect x="540" y="316" width="200" height="36" rx="4" fill="#161b22" stroke="#8b949e" stroke-width="1"/>
+  <text x="640" y="328" text-anchor="middle" fill="#C9B896" font-size="11" font-weight="bold">3. Build vocabulary</text>
+  <text x="640" y="343" text-anchor="middle" fill="#8b949e" font-size="10">32k-100k subword tokens</text>
+
+  <!-- Benefit note -->
+  <text x="400" y="385" text-anchor="middle" fill="#8b949e" font-size="11">Handles rare words by decomposing them | No out-of-vocabulary problem</text>
+  <text x="400" y="402" text-anchor="middle" fill="#8b949e" font-size="11">Balances vocabulary size with sequence length</text>
+</svg>

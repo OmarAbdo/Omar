@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" font-family="Arial, sans-serif">
+  <rect width="800" height="480" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">Virtual Memory Mapping</text>
+  <text x="400" y="52" text-anchor="middle" fill="#8b949e" font-size="12">Programs see more memory than physically exists</text>
+
+  <defs>
+    <marker id="mapArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C9B896"/>
+    </marker>
+    <marker id="mapArrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#388bfd"/>
+    </marker>
+  </defs>
+
+  <!-- ========== LEFT: Virtual Address Space ========== -->
+  <text x="150" y="80" text-anchor="middle" fill="#C9B896" font-size="14" font-weight="bold">Virtual Address Space</text>
+
+  <!-- Address labels -->
+  <text x="60" y="105" text-anchor="end" fill="#8b949e" font-size="9">0xFFFF...</text>
+  <text x="60" y="430" text-anchor="end" fill="#8b949e" font-size="9">0x0000...</text>
+
+  <!-- Full virtual memory rectangle -->
+  <rect x="70" y="96" width="160" height="340" fill="none" stroke="#8b949e" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <!-- Stack segment (top) -->
+  <rect x="70" y="96" width="160" height="70" fill="#C9B89615" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="150" y="126" text-anchor="middle" fill="#C9B896" font-size="13" font-weight="bold">Stack</text>
+  <text x="150" y="142" text-anchor="middle" fill="#8b949e" font-size="9">Local vars, calls</text>
+
+  <!-- Arrow showing growth direction -->
+  <text x="240" y="150" fill="#8b949e" font-size="10">&#8595; grows down</text>
+
+  <!-- Free space -->
+  <text x="150" y="200" text-anchor="middle" fill="#8b949e" font-size="10" font-style="italic">free</text>
+
+  <!-- Heap segment -->
+  <rect x="70" y="226" width="160" height="70" fill="#388bfd15" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="150" y="256" text-anchor="middle" fill="#388bfd" font-size="13" font-weight="bold">Heap</text>
+  <text x="150" y="272" text-anchor="middle" fill="#8b949e" font-size="9">Dynamic allocation</text>
+
+  <!-- Arrow showing growth direction -->
+  <text x="240" y="240" fill="#8b949e" font-size="10">&#8593; grows up</text>
+
+  <!-- Data segment -->
+  <rect x="70" y="306" width="160" height="60" fill="#C9B89615" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="150" y="334" text-anchor="middle" fill="#C9B896" font-size="13" font-weight="bold">Data</text>
+  <text x="150" y="350" text-anchor="middle" fill="#8b949e" font-size="9">Globals, statics</text>
+
+  <!-- Code segment (bottom) -->
+  <rect x="70" y="376" width="160" height="60" fill="#388bfd15" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="150" y="404" text-anchor="middle" fill="#388bfd" font-size="13" font-weight="bold">Code</text>
+  <text x="150" y="420" text-anchor="middle" fill="#8b949e" font-size="9">Instructions (.text)</text>
+
+  <!-- ========== RIGHT TOP: Physical RAM ========== -->
+  <text x="620" y="80" text-anchor="middle" fill="#C9B896" font-size="14" font-weight="bold">Physical RAM</text>
+  <text x="620" y="95" text-anchor="middle" fill="#8b949e" font-size="10">(smaller than virtual)</text>
+
+  <!-- RAM rectangle -->
+  <rect x="540" y="106" width="160" height="180" fill="#161b22" stroke="#C9B896" stroke-width="2"/>
+
+  <!-- RAM segments (frames) -->
+  <rect x="540" y="106" width="160" height="45" fill="#C9B89620" stroke="#C9B896" stroke-width="0.5"/>
+  <text x="620" y="133" text-anchor="middle" fill="#e6edf3" font-size="11">Code (mapped)</text>
+
+  <rect x="540" y="151" width="160" height="45" fill="#388bfd20" stroke="#388bfd" stroke-width="0.5"/>
+  <text x="620" y="178" text-anchor="middle" fill="#e6edf3" font-size="11">Stack (mapped)</text>
+
+  <rect x="540" y="196" width="160" height="45" fill="#C9B89620" stroke="#C9B896" stroke-width="0.5"/>
+  <text x="620" y="223" text-anchor="middle" fill="#e6edf3" font-size="11">Data (mapped)</text>
+
+  <rect x="540" y="241" width="160" height="45" fill="#8b949e20" stroke="#8b949e" stroke-width="0.5"/>
+  <text x="620" y="268" text-anchor="middle" fill="#8b949e" font-size="11">Other processes</text>
+
+  <!-- ========== RIGHT BOTTOM: Disk (Swap) ========== -->
+  <text x="620" y="320" text-anchor="middle" fill="#388bfd" font-size="14" font-weight="bold">Disk (Swap)</text>
+
+  <rect x="540" y="334" width="160" height="100" fill="#161b22" stroke="#388bfd" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <rect x="540" y="334" width="160" height="50" fill="#388bfd15" stroke="#388bfd" stroke-width="0.5"/>
+  <text x="620" y="364" text-anchor="middle" fill="#e6edf3" font-size="11">Heap (swapped)</text>
+
+  <rect x="540" y="384" width="160" height="50" fill="#8b949e15" stroke="#8b949e" stroke-width="0.5"/>
+  <text x="620" y="414" text-anchor="middle" fill="#8b949e" font-size="11">Inactive pages</text>
+
+  <!-- ========== MAPPING ARROWS ========== -->
+  <!-- Stack -> RAM -->
+  <path d="M230 130 Q380 120 538 173" fill="none" stroke="#C9B896" stroke-width="1.5" marker-end="url(#mapArrow)"/>
+
+  <!-- Code -> RAM -->
+  <path d="M230 406 Q400 440 538 128" fill="none" stroke="#C9B896" stroke-width="1.5" marker-end="url(#mapArrow)"/>
+
+  <!-- Data -> RAM -->
+  <path d="M230 336 Q400 320 538 218" fill="none" stroke="#C9B896" stroke-width="1.5" marker-end="url(#mapArrow)"/>
+
+  <!-- Heap -> Disk (swapped out) -->
+  <path d="M230 261 Q400 290 538 359" fill="none" stroke="#388bfd" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#mapArrowBlue)"/>
+
+  <!-- Labels on arrows -->
+  <text x="390" y="112" text-anchor="middle" fill="#C9B896" font-size="9">in RAM</text>
+  <text x="410" y="300" text-anchor="middle" fill="#388bfd" font-size="9">swapped to disk</text>
+
+  <!-- Bottom note -->
+  <text x="400" y="468" text-anchor="middle" fill="#8b949e" font-size="11">The MMU (Memory Management Unit) translates virtual addresses to physical locations at runtime</text>
+</svg>

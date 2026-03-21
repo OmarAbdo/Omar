@@ -4,6 +4,8 @@ import {
   PaintBrushIcon,
   CpuChipIcon,
   ServerStackIcon,
+  DevicePhoneMobileIcon,
+  BoltIcon,
 } from "@heroicons/react/24/outline";
 
 export const articleCategories = [
@@ -14,6 +16,14 @@ export const articleCategories = [
   {
     key: "backend",
     icon: ServerStackIcon,
+  },
+  {
+    key: "mobile",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    key: "ai",
+    icon: BoltIcon,
   },
   {
     key: "computerScience",

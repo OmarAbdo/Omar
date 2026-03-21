@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Arial, sans-serif">
+  <rect width="800" height="420" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">Attention: "it" Attends Most Strongly to "cat"</text>
+
+  <!-- Words positioned along a horizontal line -->
+  <!-- "The" -->
+  <text x="42" y="250" text-anchor="middle" fill="#8b949e" font-size="15">The</text>
+  <!-- "cat" -->
+  <text x="120" y="250" text-anchor="middle" fill="#C9B896" font-size="15" font-weight="bold">cat</text>
+  <!-- "sat" -->
+  <text x="198" y="250" text-anchor="middle" fill="#8b949e" font-size="15">sat</text>
+  <!-- "on" -->
+  <text x="276" y="250" text-anchor="middle" fill="#8b949e" font-size="15">on</text>
+  <!-- "the" -->
+  <text x="354" y="250" text-anchor="middle" fill="#8b949e" font-size="15">the</text>
+  <!-- "mat" -->
+  <text x="432" y="250" text-anchor="middle" fill="#8b949e" font-size="15">mat</text>
+  <!-- "because" -->
+  <text x="530" y="250" text-anchor="middle" fill="#8b949e" font-size="15">because</text>
+  <!-- "it" - highlighted -->
+  <rect x="595" y="230" width="40" height="28" rx="6" fill="#C9B896" fill-opacity="0.15" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="615" y="250" text-anchor="middle" fill="#C9B896" font-size="15" font-weight="bold">it</text>
+  <!-- "was" -->
+  <text x="672" y="250" text-anchor="middle" fill="#8b949e" font-size="15">was</text>
+  <!-- "tired" -->
+  <text x="742" y="250" text-anchor="middle" fill="#8b949e" font-size="15">tired</text>
+
+  <!-- Attention curves from "it" (x=615) to other words -->
+  <!-- Strong: it → cat (weight ~0.45) -->
+  <path d="M 615,228 Q 367,70 120,237" fill="none" stroke="#C9B896" stroke-width="3.5" stroke-opacity="0.95"/>
+  <circle cx="120" cy="237" r="3" fill="#C9B896" fill-opacity="0.95"/>
+
+  <!-- Moderate: it → sat (weight ~0.18) -->
+  <path d="M 615,228 Q 406,110 198,237" fill="none" stroke="#C9B896" stroke-width="2" stroke-opacity="0.5"/>
+  <circle cx="198" cy="237" r="2.5" fill="#C9B896" fill-opacity="0.5"/>
+
+  <!-- Weak: it → The (weight ~0.04) -->
+  <path d="M 615,228 Q 328,100 42,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.15"/>
+
+  <!-- Weak: it → on (weight ~0.05) -->
+  <path d="M 615,228 Q 446,155 276,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.15"/>
+
+  <!-- Weak: it → the (weight ~0.04) -->
+  <path d="M 615,228 Q 484,170 354,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.12"/>
+
+  <!-- Weak: it → mat (weight ~0.06) -->
+  <path d="M 615,228 Q 523,175 432,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- Weak: it → because (weight ~0.07) -->
+  <path d="M 615,228 Q 572,190 530,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Moderate-weak: it → was (weight ~0.08) -->
+  <path d="M 615,228 Q 643,195 672,237" fill="none" stroke="#C9B896" stroke-width="1.2" stroke-opacity="0.25"/>
+
+  <!-- Weak: it → tired (weight ~0.06) -->
+  <path d="M 615,228 Q 678,185 742,237" fill="none" stroke="#C9B896" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- Attention weight annotations -->
+  <text x="340" y="95" text-anchor="middle" fill="#C9B896" font-size="11" font-weight="bold">0.45</text>
+  <text x="405" y="128" text-anchor="middle" fill="#C9B896" fill-opacity="0.6" font-size="10">0.18</text>
+
+  <!-- Legend -->
+  <line x1="50" y1="330" x2="80" y2="330" stroke="#C9B896" stroke-width="3.5" stroke-opacity="0.95"/>
+  <text x="90" y="334" fill="#e6edf3" font-size="11">Strong attention</text>
+
+  <line x1="220" y1="330" x2="250" y2="330" stroke="#C9B896" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="260" y="334" fill="#e6edf3" font-size="11">Moderate attention</text>
+
+  <line x1="420" y1="330" x2="450" y2="330" stroke="#C9B896" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="460" y="334" fill="#e6edf3" font-size="11">Weak attention</text>
+
+  <!-- Bottom explanation -->
+  <text x="400" y="375" text-anchor="middle" fill="#8b949e" font-size="12">The attention mechanism learns which words are relevant to each other.</text>
+  <text x="400" y="393" text-anchor="middle" fill="#8b949e" font-size="12">Here, "it" correctly identifies "cat" as its referent — no sequential bottleneck needed.</text>
+</svg>

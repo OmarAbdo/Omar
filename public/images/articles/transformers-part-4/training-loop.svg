@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" font-family="Arial, sans-serif">
+  <rect width="800" height="480" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">Transformer Training Loop</text>
+
+  <!-- Main flow boxes -->
+  <!-- Input Tokens -->
+  <rect x="30" y="100" width="110" height="44" rx="6" fill="none" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="85" y="126" text-anchor="middle" fill="#e6edf3" font-size="13">Input Tokens</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="122" x2="175" y2="122" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- Encoder -->
+  <rect x="175" y="100" width="100" height="44" rx="6" fill="none" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="225" y="126" text-anchor="middle" fill="#e6edf3" font-size="13">Encoder</text>
+
+  <!-- Arrow -->
+  <line x1="275" y1="122" x2="320" y2="122" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- Decoder -->
+  <rect x="320" y="100" width="100" height="44" rx="6" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="370" y="126" text-anchor="middle" fill="#e6edf3" font-size="13">Decoder</text>
+
+  <!-- Arrow -->
+  <line x1="420" y1="122" x2="460" y2="122" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- Output Probabilities -->
+  <rect x="460" y="100" width="130" height="44" rx="6" fill="none" stroke="#C9B896" stroke-width="1.5"/>
+  <text x="525" y="120" text-anchor="middle" fill="#e6edf3" font-size="12">Output</text>
+  <text x="525" y="135" text-anchor="middle" fill="#e6edf3" font-size="12">Probabilities</text>
+
+  <!-- Arrow -->
+  <line x1="590" y1="122" x2="630" y2="122" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- Loss Function -->
+  <rect x="630" y="100" width="140" height="44" rx="6" fill="none" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="700" y="118" text-anchor="middle" fill="#e6edf3" font-size="12">Loss Function</text>
+  <text x="700" y="134" text-anchor="middle" fill="#8b949e" font-size="10">(Cross-Entropy)</text>
+
+  <!-- Backpropagation loop arrow -->
+  <path d="M700 144 L700 200 L85 200 L85 144" fill="none" stroke="#C9B896" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowGold)"/>
+  <text x="400" y="218" text-anchor="middle" fill="#C9B896" font-size="12" font-weight="bold">Backpropagation (update weights)</text>
+
+  <!-- Teacher Forcing section -->
+  <!-- Ground Truth box -->
+  <rect x="280" y="260" width="130" height="40" rx="6" fill="none" stroke="#C9B896" stroke-width="2"/>
+  <text x="345" y="284" text-anchor="middle" fill="#C9B896" font-size="13" font-weight="bold">Ground Truth</text>
+
+  <!-- Arrow from Ground Truth up to Decoder -->
+  <path d="M345 260 L345 240 L370 240 L370 144" fill="none" stroke="#C9B896" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+  <!-- Teacher Forcing label -->
+  <rect x="390" y="230" width="130" height="24" rx="4" fill="#C9B89620" stroke="#C9B896" stroke-width="1"/>
+  <text x="455" y="247" text-anchor="middle" fill="#C9B896" font-size="11" font-weight="bold">Teacher Forcing</text>
+
+  <!-- Explanation text -->
+  <text x="345" y="320" text-anchor="middle" fill="#8b949e" font-size="11">Correct previous tokens fed as decoder input</text>
+  <text x="345" y="336" text-anchor="middle" fill="#8b949e" font-size="11">during training (instead of model's own predictions)</text>
+
+  <!-- Learning Rate Warmup Inset -->
+  <rect x="580" y="280" width="190" height="170" rx="6" fill="#161b22" stroke="#8b949e" stroke-width="1"/>
+  <text x="675" y="300" text-anchor="middle" fill="#e6edf3" font-size="11" font-weight="bold">Learning Rate Schedule</text>
+
+  <!-- Axes -->
+  <line x1="610" y1="420" x2="750" y2="420" stroke="#8b949e" stroke-width="1"/>
+  <line x1="610" y1="420" x2="610" y2="310" stroke="#8b949e" stroke-width="1"/>
+
+  <!-- Axis labels -->
+  <text x="680" y="440" text-anchor="middle" fill="#8b949e" font-size="9">Training Steps</text>
+  <text x="598" y="365" text-anchor="middle" fill="#8b949e" font-size="9" transform="rotate(-90, 598, 365)">LR</text>
+
+  <!-- Warmup + decay curve -->
+  <polyline points="610,418 625,390 640,340 650,325 660,320 680,328 700,340 720,358 740,380" fill="none" stroke="#C9B896" stroke-width="2"/>
+
+  <!-- Warmup label -->
+  <text x="633" y="408" text-anchor="middle" fill="#388bfd" font-size="8">warmup</text>
+  <line x1="650" y1="420" x2="650" y2="310" stroke="#388bfd" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <!-- Decay label -->
+  <text x="710" y="408" text-anchor="middle" fill="#8b949e" font-size="8">decay</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/>
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C9B896"/>
+    </marker>
+  </defs>
+</svg>
