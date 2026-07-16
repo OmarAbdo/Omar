@@ -4,10 +4,12 @@ import { fadeUpVariant, staggerContainer } from "../../utils/animations";
 import { experiences } from "../../components/experience/Experience.data";
 
 const skills = {
-  "AI & ML": ["TensorFlow", "PyTorch", "LangChain", "RAG", "LSTM/GRU/CNN", "LLMs", "OpenRouter"],
-  Frontend: ["React", "React Native", "TypeScript", "Next.js", "Vite", "Tailwind CSS"],
-  Backend: ["Node.js", "Go", "FastAPI", "tRPC", "PostgreSQL", "Redis", "GraphQL"],
-  "DevOps & Cloud": ["AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions", "EKS"],
+  Languages: ["Go", "Python", "C / C++", "Java", "TypeScript", "JavaScript", "PHP"],
+  "Distributed Systems": ["State-Machine Replication", "Consensus / Raft", "Apache Kafka", "Distributed Logs", "Logical & Physical Clocks", "CAP Theorem", "Consistency Models"],
+  "DevOps, Cloud & Infra": ["Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions"],
+  "Backend & Architecture": ["REST / gRPC", "Event-Driven Architecture", "Event Streaming", "Microservices", "DDD", "Gin", "FastAPI", "Django", "Flask", "NestJS"],
+  Databases: ["Storage Engine Internals", "B-Trees / LSM-Trees", "ACID & Isolation", "PostgreSQL", "Redis", "MongoDB", "Replication & Sharding"],
+  Frontend: ["React", "Next.js", "Vue", "Nuxt.js", "Vite"],
 };
 
 const typeLabel: Record<string, string> = {
@@ -66,7 +68,7 @@ const CVPage: React.FC = () => {
                     <span className="text-3xl font-black text-gold tracking-tight">OA</span>
                     <div className="w-px h-8 bg-gray-200 dark:bg-white/10" />
                     <span className="text-xs font-semibold tracking-widest uppercase text-text-muted">
-                      Senior Software Developer
+                      Senior Software Engineer · Distributed Systems &amp; AI
                     </span>
                   </div>
                   <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-gray-900 dark:text-text-primary">
@@ -99,9 +101,10 @@ const CVPage: React.FC = () => {
                 <motion.div variants={fadeUpVariant}>
                   <h2 className="text-xs font-semibold tracking-widest uppercase text-gold mb-3">Profile</h2>
                   <p className="text-sm text-gray-500 dark:text-text-muted leading-relaxed">
-                    Senior software developer with 8+ years building products across fintech, AI, and logistics.
-                    I specialise in full-stack architecture, production AI integrations, and scalable distributed systems.
-                    Currently building Tafkeer — an Arabic-first AI SaaS — and open to senior engineering roles and consulting engagements.
+                    Senior software engineer with 9+ years across fintech, SaaS, and AI, leaning backend.
+                    I build fault-tolerant distributed systems from the ground up — including Crystal DB, a Raft-based
+                    key-value store written from scratch in Go. As co-founder and lead engineer at LifeOS Labs,
+                    I architected Quik AI and Tafkeer AI, aggregating 44+ LLMs with vector and graph RAG memory.
                   </p>
                 </motion.div>
 
@@ -130,9 +133,15 @@ const CVPage: React.FC = () => {
                 {/* Education */}
                 <motion.div variants={fadeUpVariant}>
                   <h2 className="text-xs font-semibold tracking-widest uppercase text-gold mb-3">Education</h2>
-                  <div>
-                    <p className="text-sm font-semibold text-gray-900 dark:text-text-primary">M.Sc. International Business Administration</p>
-                    <p className="text-xs text-text-muted mt-0.5">Data Science · European University Viadrina</p>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="text-sm font-semibold text-gray-900 dark:text-text-primary">M.Sc. Data Science</p>
+                      <p className="text-xs text-text-muted mt-0.5">European University Viadrina · 2022–2025</p>
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-900 dark:text-text-primary">B.Sc. Business Administration</p>
+                      <p className="text-xs text-text-muted mt-0.5">Tanta University · 2016–2021</p>
+                    </div>
                   </div>
                 </motion.div>
 

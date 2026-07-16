@@ -5,7 +5,7 @@ import { staggerContainer, fadeUpVariant } from "../../utils/animations";
 import SectionLabel from "../common/SectionLabel";
 
 const stats = [
-  { value: "8+", labelKey: "home.about.stats.experience" },
+  { value: "9+", labelKey: "home.about.stats.experience" },
   { value: "20+", labelKey: "home.about.stats.projects" },
   { value: "5+", labelKey: "home.about.stats.countries" },
 ];
