@@ -65,7 +65,7 @@
     "hero": {
       "eyebrow": "Senior Software Developer · Berlin",
       "name": "Omar Abdo.",
-      "tagline": "I build AI-powered products, autonomous systems, and high-scale platforms.",
+      "tagline": "I build AI-powered products and fault-tolerant distributed systems in Go — from consensus engines to high-scale platforms.",
       "ctaPrimary": "View Projects",
       "ctaSecondary": "Get in Touch"
     },
@@ -80,17 +80,13 @@
         "title": "Tafkeer",
         "description": "Arabic-first AI SaaS platform with multi-model inference (59 models via OpenRouter). Mobile-first with React Native, tRPC on AWS EKS, and Stripe billing. Live in production."
       },
-      "gii": {
-        "title": "GII — Global Investment Intelligence",
-        "description": "Autonomous investment analyst combining DCF modelling, Buffett-rule screening, and Gemini-powered geopolitical signal analysis across global markets."
+      "quik": {
+        "title": "Quik AI",
+        "description": "LifeOS's flagship AI super-app aggregating 44+ LLMs with full Vector + Graph RAG memory. Led the complete lifecycle from Figma to DevOps as backend architect and engineering lead. Built on Go, PostgreSQL, and a microservices backend."
       },
       "luqman": {
         "title": "Luqman",
         "description": "Deep learning trading intelligence using a hybrid LSTM/GRU/CNN architecture with temporal attention mechanisms for time-series market prediction."
-      },
-      "netro": {
-        "title": "Netro",
-        "description": "City-scale last-mile delivery simulation optimising hybrid truck and autonomous robot fleets across dense urban grids."
       },
       "prototypesEyebrow": "UI Prototypes",
       "prototypesTitle": "Concepts that demonstrate.",
@@ -122,9 +118,9 @@
     "services": {
       "eyebrow": "Services",
       "title": "What I Build",
-      "development": {
-        "header": "Full-Stack Development",
-        "subHeader": "End-to-end product engineering from architecture through deployment. React, Node.js, TypeScript, cloud-native."
+      "distributed": {
+        "header": "Distributed Systems",
+        "subHeader": "Consensus, replication, and fault-tolerant design in Go. Raft, state-machine replication, event streaming, and CAP-aware architecture — built from the storage engine up."
       },
       "aiSystems": {
         "header": "AI & Machine Learning",

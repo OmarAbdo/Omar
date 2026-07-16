@@ -65,7 +65,7 @@
     "hero": {
       "eyebrow": "Senior Softwareentwickler · Berlin",
       "name": "Omar Abdo.",
-      "tagline": "Ich entwickle KI-gestützte Produkte, autonome Systeme und hochskalierbare Plattformen.",
+      "tagline": "Ich entwickle KI-gestützte Produkte und fehlertolerante verteilte Systeme in Go — von Konsens-Engines bis zu hochskalierbaren Plattformen.",
       "ctaPrimary": "Projekte ansehen",
       "ctaSecondary": "Kontakt aufnehmen"
     },
@@ -80,25 +80,21 @@
         "title": "Tafkeer",
         "description": "Arabisch-erste KI-SaaS-Plattform mit Multi-Modell-Inferenz (59 Modelle via OpenRouter). Mobile-first mit React Native, tRPC auf AWS EKS und Stripe-Abrechnung. Live in Produktion."
       },
-      "gii": {
-        "title": "GII — Globale Investitionsintelligenz",
-        "description": "Autonomer Investitionsanalyst, der DCF-Modellierung, Buffett-Regelprüfung und Gemini-gestützte geopolitische Signalanalyse auf globalen Märkten kombiniert."
+      "quik": {
+        "title": "Quik AI",
+        "description": "LifeOS' Flaggschiff-KI-Super-App, die 44+ LLMs mit vollständigem Vector- und Graph-RAG-Gedächtnis vereint. Als Backend-Architekt und Engineering-Lead habe ich den kompletten Lebenszyklus von Figma bis DevOps verantwortet. Gebaut mit Go, PostgreSQL und einem Microservices-Backend."
       },
       "luqman": {
         "title": "Luqman",
         "description": "Deep-Learning-Handelsintelligenz mit einer hybriden LSTM/GRU/CNN-Architektur und zeitlichen Aufmerksamkeitsmechanismen für Zeitreihen-Marktvorhersagen."
-      },
-      "netro": {
-        "title": "Netro",
-        "description": "Stadtweite Simulation der letzten Meile zur Optimierung hybrider LKW- und autonomer Roboterflotten in dichten städtischen Netzen."
       }
     },
     "services": {
       "eyebrow": "Leistungen",
       "title": "Was ich entwickle",
-      "development": {
-        "header": "Full-Stack-Entwicklung",
-        "subHeader": "Komplette Produktentwicklung von der Architektur bis zum Deployment. React, Node.js, TypeScript, cloud-nativ."
+      "distributed": {
+        "header": "Verteilte Systeme",
+        "subHeader": "Konsens, Replikation und fehlertolerantes Design in Go. Raft, State-Machine-Replikation, Event-Streaming und CAP-bewusste Architektur — von der Storage-Engine an aufgebaut."
       },
       "aiSystems": {
         "header": "KI & maschinelles Lernen",

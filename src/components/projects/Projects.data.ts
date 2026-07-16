@@ -29,12 +29,12 @@ export const projects: Project[] = [
     gradient: "from-amber-500/10 to-orange-600/5",
   },
   {
-    id: "gii",
-    href: "https://github.com/OmarAbdo/global-investment-intelligence",
-    stack: ["Python", "Gemini AI", "DCF Engine", "FastAPI"],
+    id: "quik",
+    href: "https://www.linkedin.com/in/omar-abdo/",
+    stack: ["Go", "PostgreSQL", "Microservices", "Vector RAG", "Graph RAG"],
     status: "private",
-    titleKey: "home.projects.gii.title",
-    descKey: "home.projects.gii.description",
+    titleKey: "home.projects.quik.title",
+    descKey: "home.projects.quik.description",
     gradient: "from-blue-500/10 to-indigo-600/5",
   },
   {
@@ -45,15 +45,6 @@ export const projects: Project[] = [
     titleKey: "home.projects.luqman.title",
     descKey: "home.projects.luqman.description",
     gradient: "from-emerald-500/10 to-green-600/5",
-  },
-  {
-    id: "netro",
-    href: "https://github.com/OmarAbdo/Netro",
-    stack: ["Python", "Simulation", "Optimisation", "GIS"],
-    status: "open-source",
-    titleKey: "home.projects.netro.title",
-    descKey: "home.projects.netro.description",
-    gradient: "from-violet-500/10 to-purple-600/5",
   },
 ];
 

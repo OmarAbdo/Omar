@@ -1,5 +1,5 @@
 import {
-  CodeBracketIcon,
+  ServerStackIcon,
   CpuChipIcon,
   CloudIcon,
   ChartBarIcon,
@@ -8,9 +8,9 @@ import {
 export const services = [
   {
     id: 1,
-    icon: CodeBracketIcon,
-    titleKey: "home.services.development.header",
-    descKey: "home.services.development.subHeader",
+    icon: ServerStackIcon,
+    titleKey: "home.services.distributed.header",
+    descKey: "home.services.distributed.subHeader",
   },
   {
     id: 2,

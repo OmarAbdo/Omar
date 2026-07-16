@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Raft server state transitions: a server starts as Follower, becomes Candidate on election timeout, becomes Leader on winning a majority of votes, and any server steps down to Follower when it discovers a higher term.">
+  <defs>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#d4a24e"/>
+    </marker>
+    <style>
+      .node{fill:#f7f7f8;stroke:#e2e2e6;stroke-width:1.5;}
+      .lead{fill:#fbf4e6;stroke:#d4a24e;stroke-width:1.5;}
+      .t{fill:#1a1c22;}
+      .m{fill:#6b7280;}
+      .edge{stroke:#d4a24e;stroke-width:1.8;fill:none;}
+      @media (prefers-color-scheme: dark){
+        .node{fill:#15171c;stroke:#2a2d35;}
+        .lead{fill:#221c10;stroke:#d4a24e;}
+        .t{fill:#e8e8ea;}
+        .m{fill:#9aa0aa;}
+      }
+    </style>
+  </defs>
+
+  <!-- Follower -->
+  <ellipse class="node" cx="140" cy="180" rx="90" ry="55"/>
+  <text class="t" x="140" y="176" font-size="16" font-weight="700" text-anchor="middle">Follower</text>
+  <text class="m" x="140" y="196" font-size="10" text-anchor="middle">passive; responds</text>
+  <text class="m" x="140" y="208" font-size="10" text-anchor="middle">to RPCs</text>
+
+  <!-- Candidate -->
+  <ellipse class="node" cx="400" cy="180" rx="90" ry="55"/>
+  <text class="t" x="400" y="176" font-size="16" font-weight="700" text-anchor="middle">Candidate</text>
+  <text class="m" x="400" y="196" font-size="10" text-anchor="middle">requests votes</text>
+  <text class="m" x="400" y="208" font-size="10" text-anchor="middle">for new term</text>
+
+  <!-- Leader -->
+  <ellipse class="lead" cx="620" cy="180" rx="80" ry="55"/>
+  <text class="t" x="620" y="176" font-size="16" font-weight="700" text-anchor="middle">Leader</text>
+  <text class="m" x="620" y="196" font-size="10" text-anchor="middle">handles all</text>
+  <text class="m" x="620" y="208" font-size="10" text-anchor="middle">client requests</text>
+
+  <!-- start -->
+  <text class="m" x="140" y="95" font-size="10" text-anchor="middle">starts up / recovers</text>
+  <path class="edge" d="M140 100 V120" marker-end="url(#a2)"/>
+
+  <!-- follower -> candidate -->
+  <path class="edge" d="M230 165 H308" marker-end="url(#a2)"/>
+  <text class="m" x="269" y="150" font-size="10" text-anchor="middle">times out,</text>
+  <text class="m" x="269" y="140" font-size="10" text-anchor="middle">starts election</text>
+
+  <!-- candidate -> leader -->
+  <path class="edge" d="M490 165 H538" marker-end="url(#a2)"/>
+  <text class="m" x="514" y="150" font-size="10" text-anchor="middle">wins</text>
+  <text class="m" x="514" y="140" font-size="10" text-anchor="middle">majority</text>
+
+  <!-- candidate self-loop (split vote) -->
+  <path class="edge" d="M370 130 C360 90 440 90 430 130" marker-end="url(#a2)"/>
+  <text class="m" x="400" y="80" font-size="10" text-anchor="middle">split vote → times out, new term</text>
+
+  <!-- candidate -> follower (discovers leader/higher term) -->
+  <path class="edge" d="M320 215 C260 250 220 245 175 228" marker-end="url(#a2)"/>
+  <text class="m" x="255" y="270" font-size="10" text-anchor="middle">discovers current leader</text>
+
+  <!-- leader -> follower (higher term) -->
+  <path class="edge" d="M600 235 C520 320 240 320 155 236" marker-end="url(#a2)"/>
+  <text class="m" x="380" y="335" font-size="10" text-anchor="middle">discovers server with higher term → steps down</text>
+</svg>

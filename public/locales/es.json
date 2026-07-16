@@ -65,7 +65,7 @@
     "hero": {
       "eyebrow": "Desarrollador Senior · Berlín",
       "name": "Omar Abdo.",
-      "tagline": "Construyo productos impulsados por IA, sistemas autónomos y plataformas de alta escala.",
+      "tagline": "Construyo productos impulsados por IA y sistemas distribuidos tolerantes a fallos en Go — desde motores de consenso hasta plataformas de alta escala.",
       "ctaPrimary": "Ver proyectos",
       "ctaSecondary": "Ponerse en contacto"
     },
@@ -80,25 +80,21 @@
         "title": "Tafkeer",
         "description": "Plataforma SaaS de IA con enfoque árabe e inferencia multi-modelo (59 modelos via OpenRouter). Mobile-first con React Native, tRPC en AWS EKS y facturación con Stripe. En producción."
       },
-      "gii": {
-        "title": "GII — Inteligencia de Inversión Global",
-        "description": "Analista de inversión autónomo que combina modelado DCF, cribado de reglas Buffett y análisis de señales geopolíticas con Gemini en mercados globales."
+      "quik": {
+        "title": "Quik AI",
+        "description": "La super-app de IA insignia de LifeOS que agrega más de 44 LLMs con memoria completa Vector + Graph RAG. Dirigí todo el ciclo de vida, de Figma a DevOps, como arquitecto de backend y líder de ingeniería. Construida sobre Go, PostgreSQL y un backend de microservicios."
       },
       "luqman": {
         "title": "Luqman",
         "description": "Inteligencia de trading con deep learning usando una arquitectura híbrida LSTM/GRU/CNN con mecanismos de atención temporal para predicción de mercados."
-      },
-      "netro": {
-        "title": "Netro",
-        "description": "Simulación de entrega de última milla a escala urbana que optimiza flotas híbridas de camiones y robots autónomos en redes urbanas densas."
       }
     },
     "services": {
       "eyebrow": "Servicios",
       "title": "Lo que construyo",
-      "development": {
-        "header": "Desarrollo Full-Stack",
-        "subHeader": "Ingeniería de producto de extremo a extremo, desde la arquitectura hasta el despliegue. React, Node.js, TypeScript, cloud-nativo."
+      "distributed": {
+        "header": "Sistemas Distribuidos",
+        "subHeader": "Consenso, replicación y diseño tolerante a fallos en Go. Raft, replicación de máquina de estados, event streaming y arquitectura consciente de CAP — construido desde el motor de almacenamiento."
       },
       "aiSystems": {
         "header": "IA y Machine Learning",

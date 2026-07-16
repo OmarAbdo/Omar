@@ -12,28 +12,34 @@ const stats = [
 
 const techGroups = [
   {
-    label: "AI & ML",
+    label: "Languages",
+    color: "text-rose-500 dark:text-rose-400",
+    border: "border-rose-500/20 hover:border-rose-400",
+    techs: ["Go", "Python", "C / C++", "Java", "TypeScript", "JavaScript", "PHP"],
+  },
+  {
+    label: "Distributed Systems",
     color: "text-amber-500 dark:text-amber-400",
     border: "border-amber-500/20 hover:border-amber-400",
-    techs: ["TensorFlow", "PyTorch", "LangChain", "RAG", "LSTM/GRU/CNN", "LLMs"],
+    techs: ["Raft / Consensus", "State-Machine Replication", "Kafka", "Distributed Logs", "Logical Clocks", "CAP & Consistency"],
   },
   {
-    label: "Frontend",
-    color: "text-blue-500 dark:text-blue-400",
-    border: "border-blue-500/20 hover:border-blue-400",
-    techs: ["React", "React Native", "TypeScript", "Next.js", "Vite"],
-  },
-  {
-    label: "Backend",
-    color: "text-emerald-500 dark:text-emerald-400",
-    border: "border-emerald-500/20 hover:border-emerald-400",
-    techs: ["Node.js", "Go", "FastAPI", "tRPC", "PostgreSQL", "Redis"],
-  },
-  {
-    label: "DevOps & Cloud",
+    label: "DevOps, Cloud & Infra",
     color: "text-violet-500 dark:text-violet-400",
     border: "border-violet-500/20 hover:border-violet-400",
-    techs: ["AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions"],
+    techs: ["Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions"],
+  },
+  {
+    label: "Backend & Architecture",
+    color: "text-emerald-500 dark:text-emerald-400",
+    border: "border-emerald-500/20 hover:border-emerald-400",
+    techs: ["gRPC / REST", "Event-Driven Architecture", "Microservices", "DDD", "Gin", "FastAPI", "NestJS"],
+  },
+  {
+    label: "Databases",
+    color: "text-blue-500 dark:text-blue-400",
+    border: "border-blue-500/20 hover:border-blue-400",
+    techs: ["B-Trees / LSM-Trees", "ACID & Isolation", "PostgreSQL", "Redis", "MongoDB", "Sharding"],
   },
 ];
 
