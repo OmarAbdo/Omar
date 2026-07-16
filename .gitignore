@@ -25,3 +25,7 @@ dist-ssr
 
 /src/components/tailwind
 
+# Reference PDFs at repo root (the served copy lives in public/)
+/Omar Abdou CV.pdf
+/In Search of an Understandable Consensus Algorithm.pdf
+
