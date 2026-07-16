@@ -34,15 +34,16 @@ const CVPage: React.FC = () => {
       <div className="min-h-screen py-12 sm:py-16 bg-light-bg dark:bg-dark-bg print-page">
         {/* Download button — hidden on print */}
         <div className="no-print mx-auto max-w-4xl px-6 lg:px-8 mb-8 flex justify-end">
-          <button
-            onClick={() => window.print()}
+          <a
+            href="/Omar-Abdou-CV.pdf"
+            download="Omar-Abdou-CV.pdf"
             className="inline-flex items-center gap-2 bg-gold text-dark-bg font-bold px-5 py-2.5 rounded-full hover:bg-gold-hover transition-colors text-sm"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
             Download as PDF
-          </button>
+          </a>
         </div>
 
         <motion.div
@@ -76,8 +77,8 @@ const CVPage: React.FC = () => {
                   </p>
                 </div>
                 <div className="flex flex-col gap-1.5 text-sm text-gray-500 dark:text-text-muted sm:text-right">
-                  <a href="mailto:omareabdo@gmail.com" className="hover:text-gold transition-colors">
-                    omareabdo@gmail.com
+                  <a href="mailto:omar.abdo.jobs@gmail.com" className="hover:text-gold transition-colors">
+                    omar.abdo.jobs@gmail.com
                   </a>
                   <a href="https://www.linkedin.com/in/omar-abdo/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">
                     linkedin.com/in/omar-abdo

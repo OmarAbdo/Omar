@@ -72,6 +72,10 @@
     "projects": {
       "eyebrow": "Selected Work",
       "title": "Projects that ship.",
+      "crystal": {
+        "title": "Crystal DB",
+        "description": "A distributed consensus key-value store built from scratch in Go — a paper-faithful Raft implementation with leader election, log replication, a crash-safe write-ahead log, and snapshot compaction, wrapped around a pluggable LSM-tree storage interface. Verified with real multi-node cluster integration tests."
+      },
       "tafkeer": {
         "title": "Tafkeer",
         "description": "Arabic-first AI SaaS platform with multi-model inference (59 models via OpenRouter). Mobile-first with React Native, tRPC on AWS EKS, and Stripe billing. Live in production."

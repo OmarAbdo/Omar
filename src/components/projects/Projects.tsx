@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { staggerContainer, fadeUpVariant } from "../../utils/animations";
 import SectionLabel from "../common/SectionLabel";
 import ProjectCard from "./ProjectCard";
-import { projects, prototypeProjects } from "./Projects.data";
+import { projects } from "./Projects.data";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -30,19 +30,6 @@ const Projects: React.FC = () => {
 
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
             {projects.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
-          </div>
-
-          <motion.div variants={fadeUpVariant} className="mt-20">
-            <SectionLabel>{t("home.projects.prototypesEyebrow")}</SectionLabel>
-            <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-text-primary">
-              {t("home.projects.prototypesTitle")}
-            </h3>
-          </motion.div>
-
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {prototypeProjects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>

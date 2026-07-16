@@ -72,6 +72,10 @@
     "projects": {
       "eyebrow": "Ausgewählte Arbeiten",
       "title": "Projekte, die liefern.",
+      "crystal": {
+        "title": "Crystal DB",
+        "description": "Ein verteilter, konsensbasierter Key-Value-Store, von Grund auf in Go entwickelt — eine paper-treue Raft-Implementierung mit Leader-Election, Log-Replikation, absturzsicherem Write-Ahead-Log und Snapshot-Kompaktierung, um eine austauschbare LSM-Tree-Speicherschnittstelle herum gebaut. Verifiziert mit echten Multi-Node-Cluster-Integrationstests."
+      },
       "tafkeer": {
         "title": "Tafkeer",
         "description": "Arabisch-erste KI-SaaS-Plattform mit Multi-Modell-Inferenz (59 Modelle via OpenRouter). Mobile-first mit React Native, tRPC auf AWS EKS und Stripe-Abrechnung. Live in Produktion."

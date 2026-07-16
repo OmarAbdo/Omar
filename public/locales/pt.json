@@ -72,6 +72,10 @@
     "projects": {
       "eyebrow": "Trabalho selecionado",
       "title": "Projetos que entregam.",
+      "crystal": {
+        "title": "Crystal DB",
+        "description": "Um armazenamento chave-valor distribuído baseado em consenso, construído do zero em Go — uma implementação de Raft fiel ao paper com eleição de líder, replicação de log, um write-ahead log resistente a falhas e compactação por snapshots, em torno de uma interface de armazenamento LSM-tree substituível. Verificado com testes de integração em clusters reais multi-nó."
+      },
       "tafkeer": {
         "title": "Tafkeer",
         "description": "Plataforma SaaS de IA com foco árabe e inferência multi-modelo (59 modelos via OpenRouter). Mobile-first com React Native, tRPC no AWS EKS e cobrança com Stripe. Em produção."

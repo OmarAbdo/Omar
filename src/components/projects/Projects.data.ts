@@ -11,6 +11,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "crystal",
+    href: "https://github.com/OmarAbdo/Crystal",
+    stack: ["Go", "Raft", "Write-Ahead Log", "Snapshots", "LSM-Tree"],
+    status: "open-source",
+    titleKey: "home.projects.crystal.title",
+    descKey: "home.projects.crystal.description",
+    gradient: "from-sky-500/10 to-blue-600/5",
+  },
+  {
     id: "tafkeer",
     href: "https://tafkeer-ai.com",
     stack: ["React Native", "tRPC", "AWS EKS", "59 AI Models", "Stripe"],
