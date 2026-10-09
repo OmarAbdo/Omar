@@ -1,0 +1,22 @@
+/* Static pages for CourseNow (/coursenow/ and /coursenow/privacy/), in the site's colours. */
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #08090D;
+  color: #EDEDEE;
+  font: 16px/1.65 "Inter var", Inter, system-ui, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
+h1 { font-size: 40px; line-height: 1.15; letter-spacing: -0.02em; margin: 8px 0 16px; }
+h2 { font-size: 18px; margin: 40px 0 8px; color: #C9B896; }
+p, li { color: #C7C8CE; }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+a { color: #C9B896; text-underline-offset: 3px; }
+a:hover { color: #B89870; }
+code { background: #111318; border: 1px solid #23262F; border-radius: 6px; padding: 1px 6px; font-size: 14px; }
+.label { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #7A7D8A; margin: 0; }
+.label a { color: inherit; }
+.lead { font-size: 18px; color: #EDEDEE; }
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #23262F; font-size: 14px; color: #7A7D8A; }
